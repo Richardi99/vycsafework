@@ -67,6 +67,13 @@ footer img {
     width: clamp(350px,5vw,500px);
 }
 
+footer .footer-col:nth-child(1) {
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+
 
 
 
@@ -91,11 +98,11 @@ footer img {
     footer .footer-col:nth-child(2) {
         margin: auto 0;
     }
-
-    footer img {
+    
+    footer .footer-col:nth-child(1) {
+        text-align: justify;
+        padding: 0 30px;
         margin: auto 0;
-        align-items: center;
-        width: clamp(250px,5vw,300px);
     }
 }
 
@@ -107,12 +114,21 @@ footer img {
 @media(max-width:550px) {
     
 
+    footer .footer-col:nth-child(1) {
+        text-align: justify;
+        padding: 0 25px;
+    }
     footer .footer-col:nth-child(2) {
         text-align: start;
     }
 
     footer .footer-col.col2 ul{
         padding-right: 100px;
+    }
+
+    footer img {
+        width: clamp(220px,5vw,250px);
+        height: clamp(120px,5vw,150px);
     }
 }
 /********************************************/

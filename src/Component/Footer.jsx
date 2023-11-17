@@ -7,7 +7,14 @@ export const Footer = () => {
        <footer>
          <div className="footer-columns center">
             <div className="footer-col">
-                <img src={logo} alt="LOGO"/> 
+            <h3>LA EMPRESA</h3>
+                        <p>
+                        Somos una empresa especializada en la gestión integral de 
+                        edificios y condominios, ofreciendo servicios expertos en 
+                        seguridad, conserjería, limpieza y consultoría inmobiliaria. 
+                        Nuestro personal altamente capacitado garantiza calidad en 
+                        cada tarea, transformando y optimizando tus espacios. 
+                        </p>
             </div>
                 <div className="footer-col col2">
                     <h3>ENLACES INTERNOS</h3>

@@ -136,28 +136,31 @@ header nav ol a:hover {
 
 
         header nav .link-mobile a {
-            padding: 20px;
-            margin: 0 auto; 
+            padding-top: 20px ;
+            padding-bottom: 20px ;
+            margin: 0;
+            width: 100%-20px;
             font-size: clamp(16px, 5vw, 18px);
         }
-
+        
         header nav .link-mobile a:nth-child(4){
             padding-bottom: 30px;
         }
-
+        
     }
 
-/********************************************/
-
-
-/* VERSION MOBILE (500PX)  ******************/
-
+    /********************************************/
+    
+    
+    /* VERSION MOBILE (500PX)  ******************/
+    
     @media (max-width:490px) {
         header nav .link-mobile {
             width: 100%;
             top: 70px;
+            border-bottom-right-radius: 10px;
         }
-
+        
         header nav img {
             width: 100px;
         }
