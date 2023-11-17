@@ -1,18 +1,30 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import logo from '../Img/logosinbg.png';
-
-import '../Css/Header.css'
-import menu from '../Img/icmenu.png'
-
-// Importes y declaración de componente...
+import '../Css/Header.css';
+import menu from '../Img/icmenu.png';
 
 export const Header = () => {
-    const [isOpen, setIsOpen] = useState(false); 
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
-        setIsOpen(!isOpen);
+        setIsOpen(prevIsOpen => !prevIsOpen);
     };
+
+    useEffect(() => {
+        const handler = (event) => {
+            if (event.target.closest(".menu-burger")) {
+                return; // Ignore clicks inside the menu button
+            }
+            setIsOpen(false);
+        };
+
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        };
+    }, []);
 
     return (
         <>
@@ -41,7 +53,7 @@ export const Header = () => {
                 </nav>
             </header>
             <div className="bar-contact">
-                <h3>Comunicate con nosotros al +51 903287955</h3>
+                <h3>Comunícate con nosotros al +51 903287955</h3>
             </div>
         </>
     );
