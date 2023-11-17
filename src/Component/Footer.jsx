@@ -29,14 +29,14 @@ export const Footer = () => {
                 <div className="footer-col">
                     <h3>SERVICIOS GENERALES</h3>
                         <ul>
-                            <li>Gasfiteria</li>
-                            <li>Reparaciones</li>
-                            <li>Mantenimiento de granito</li>
-                            <li>Limpieza</li>
-                            <li>Mantenimiento sanitario y eléctrico</li>
-                            <li>Instalacion de cámaras CCTV</li>
-                            <li>Trabajos de Drywall</li>
-                            <li>Enchape y otros</li>
+                            <li>Conserjeria</li>
+                            <li>Porteria</li>
+                            <li>Recepcionista</li>
+                            <li>Auxiliar de Limpieza</li>
+                            <li>Vigilancia preventiva</li>
+                            <li>Preventa de pérdidas</li>
+                            <li>Resguardo Policial</li>
+                            <li>Escolta Personal</li>
                         </ul>
                 </div>
                 <div className="footer-col">
