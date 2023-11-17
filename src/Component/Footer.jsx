@@ -31,10 +31,10 @@ export const Footer = () => {
                         <ul>
                             <li>Conserjeria</li>
                             <li>Porteria</li>
-                            <li>Recepcionista</li>
+                            <li>Recepcionistas</li>
                             <li>Auxiliar de Limpieza</li>
                             <li>Vigilancia preventiva</li>
-                            <li>Preventa de pérdidas</li>
+                            <li>Preventor de pérdidas</li>
                             <li>Resguardo Policial</li>
                             <li>Escolta Personal</li>
                         </ul>
