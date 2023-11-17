@@ -44,10 +44,17 @@ footer .center {
 }
 
 .footer-col a{
-    text-align: initial;
+    display: inline;
+    align-items: center;
     text-decoration: none;
-    color: #ffff;
+    color: #A9A9A9;
+    font-weight: 600;
+    width: 50px;
     font-family: var(--font-Mono);
+}
+
+.col2 {
+    background-color: red;
 }
 
 
@@ -145,6 +152,14 @@ footer .footer-col:nth-child(1) {
         text-align: justify;
         padding: 0 25px;
     }
+
+    .map-ubicacion {
+        margin: 0;
+        text-align: start;
+        width: clamp(220px, 5vw, 350px);
+        height: clamp(180px, 5vw, 350px);
+        background-color: aqua;
+    }
 }
 
 /********************************************/
@@ -161,8 +176,8 @@ footer .footer-col:nth-child(1) {
         margin: 0 auto;
     }
     footer .footer-col:nth-child(2) {
-        text-align: start;
         width: 70%;
+        
         margin: 0 auto;
     }
     footer .footer-col:nth-child(3) {
@@ -174,6 +189,11 @@ footer .footer-col:nth-child(1) {
         text-align: start;
         width: 70%;
         margin: 0 auto;
+    }
+
+    .footer-col li{
+        width: 100%;
+        
     }
 }
 /********************************************/

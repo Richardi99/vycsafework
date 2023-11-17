@@ -1,6 +1,6 @@
 import '../Css/Footer.css'
 import logo from '../Img/logosinbg.png';
-
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
     return (
@@ -19,10 +19,10 @@ export const Footer = () => {
                 <div className="footer-col col2">
                     <h3>ENLACES INTERNOS</h3>
                         <ul>
-                            <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Contáctanos</a></li>
-                            <li><a href="#">Unete a nosotros</a></li>
+                            <li><a href="../Paginas/Inicio.jsx">Inicio</a></li>
+                            <li><a href="../Paginas/Nosotros.jsx">Nosotros</a></li>
+                            <li><a href="../Paginas/Contacto.jsx">Contáctanos</a></li>
+                            <li><a href="#">Nuestros servicos</a></li>
                         </ul>
                 </div>
 

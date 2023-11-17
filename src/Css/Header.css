@@ -91,6 +91,10 @@ header nav ol a:hover {
             margin: 0 25px;
         }
 
+        .bar-contact {
+            padding-top: 80px;
+        }
+
         .menu-burger {
             display: flex;  
         }
@@ -171,6 +175,10 @@ header nav ol a:hover {
 
         .menu-burger button img{
             width: 1.8rem;
+        }
+
+        .bar-contact {
+            padding-top: 70px;
         }
         
     }
