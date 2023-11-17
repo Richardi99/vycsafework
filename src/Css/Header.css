@@ -103,6 +103,10 @@ header nav ol a:hover {
             width: 2.3rem;
         }
 
+        header nav img {
+            width: 120px;
+        }
+
         header nav ol {
             display: none;
         }
@@ -115,14 +119,14 @@ header nav ol a:hover {
             text-align: center;
             justify-content: center;
             right: -100%;
-            top: 90px;
+            top: 80px;
             left: 20;
             padding: 0;
             background-color: #1C1E21;
             border-bottom-left-radius: 10px;
             transition: right 0.2s ease;
         }
-
+        
         header nav .link-mobile.open {
             right: 0;
             display: flex;
@@ -151,7 +155,11 @@ header nav ol a:hover {
     @media (max-width:490px) {
         header nav .link-mobile {
             width: 100%;
-            top: 89px;
+            top: 70px;
+        }
+
+        header nav img {
+            width: 100px;
         }
         
     }
