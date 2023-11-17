@@ -44,6 +44,11 @@ export const Footer = () => {
                         <div className="map-ubicacion"></div>
                 </div>
          </div>
+         <aside className= "Bn-richardi">
+            <p>
+            v&cSafework © 2023 | Todos los Derechos Reservados, Diseñado por "Byrtec.com"
+            </p>
+         </aside>
        </footer>
     )
 }
