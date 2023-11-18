@@ -29,7 +29,7 @@
     }
 
 .sct1texto{
-    top: 350px;
+    top: 38%;
     left: 36px;
     position: absolute;
     border-radius: 6px;
@@ -40,15 +40,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sct1texto h1 {
-    font-size: clamp(20px,5vw,60px);
+    font-size: clamp(20px,8vw,45px);
 }
 .sct1texto p {
     margin-top: 5px;
-    font-size: clamp(16px,5vw,22px);
+    font-size: clamp(16px,5vw,18px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn-solicitar{
-    font-size: clamp(16px,5vw,20px);
+    font-size: clamp(16px,5vw,18px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     background-color: #DC5529;
@@ -74,7 +74,7 @@
 #inicio h2 { 
     display: flex;
     flex-direction: column;
-    font-size: clamp(35px,5vw,45px);
+    font-size: clamp(20px,8vw,40px);
     width: 90%;
     text-align: center;
     margin: 50px auto;
@@ -86,14 +86,15 @@
 }
 
 #sct2 .sect2-card{
-    justify-content: center;
+    margin: 0 80px;
+    justify-content: space-around;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
 }
 #sct2 .sect2-card div{
-    max-width: 360px;
-    height: 280px;
+    max-width: 280px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -106,16 +107,16 @@
     font-family: var(--fontMono);
 }
 #sct2 .sect2-card div h4 {
-    font-size: clamp(20px, 6vw, 22px);
+    font-size: clamp(16px, 6vw, 18px);
     color: #00628B;
 }
 #sct2 .sect2-card div p {
-    font-size: clamp(10px, 6vw, 20px);
+    font-size: clamp(14px, 6vw, 16px);
     color: #303030;
     width: 85%;
 }
 #sct2 .sect2-card div img {
-     width: 120px;
+     width: clamp(60px,5vw,100px);
 }
 #sct2 .sect2-card div:hover {
     background-color: #F26E44;
