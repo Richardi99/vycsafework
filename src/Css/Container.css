@@ -148,7 +148,7 @@
     background-size: 16px 16px;
     background-position: left top , left bottom , right top , right bottom;
     animation: rotate 1s linear infinite;
-    display: flex;
+    transition: 0.2s all;
     
   }
   @keyframes rotate {
@@ -170,7 +170,7 @@
   }
 
   .loading-body {
-    background-color: #52635b; /* Cambia este color por el que desees */
+    background-color: #1C1E21; /* Cambia este color por el que desees */
   }
   .loader-container {
     text-align: center;
