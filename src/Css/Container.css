@@ -92,8 +92,8 @@
     flex-wrap: wrap;
 }
 #sct2 .sect2-card div{
-    max-width: 450px;
-    height: 300px;
+    max-width: 360px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
