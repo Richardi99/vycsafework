@@ -88,7 +88,7 @@ export function Inicio () {
                 </section>
 
                 <section id="sct3">
-                    <img src="" alt="" />
+                    
                 </section>
                 <section id="sct4"></section>
             </div>

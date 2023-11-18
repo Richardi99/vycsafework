@@ -92,38 +92,50 @@ footer .footer-col {
 footer .footer-col:nth-child(1) {
     text-align: justify;
 }
+footer .footer-col:nth-child(4) {
+    text-align: justify;
+    width: 260px;
+}
 
 
 .map-ubicacion {
     margin: 0;
     text-align: start;
-    width: 250px;
+    width: 240px;
     height: 200px;
     background-color: aqua;
 }
+.map-ubicacion a img{
+    width: 240px;
+    height: 200px;
+}
 
 .Bn-richardi {
-    display: none;
+    text-align: center;
     background-color: #323539;
     color: #A9A9A9;
-    text-align: center;
+    width: 100%; 
+    
+    /* z-index: 1000;
     height: 20px;
-    width: 100%;
-}
-
-.Bn-richardi p{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    font-family: var(--font-Mono);
-    margin-top: 10px;
+    position: fixed;
+    display: none;
+    text-align: center;*/
     align-items: center;
-    padding: 5px;
-    background-color: #323539;
-    color: #A9A9A9;
-    text-align: center;
-    margin: 0 auto;
 }
+.Bn-richardi p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.Bn-richardi p a {
+    color: #A9A9A9;
+    text-decoration: none;
+} 
+.Bn-richardi p a:visited {
+    color: #A9A9A9;
+} 
+
+
 
 
 
@@ -160,6 +172,8 @@ footer .footer-col:nth-child(1) {
         height: clamp(180px, 5vw, 350px);
         background-color: aqua;
     }
+
+    
 }
 
 /********************************************/
