@@ -84,6 +84,7 @@ export function Inicio () {
                             <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
                                 seguridad y rentabilidad</p>
                         </div>
+
                     </div>
                 </section>
 
