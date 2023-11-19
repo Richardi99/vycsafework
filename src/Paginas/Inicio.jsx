@@ -1,4 +1,5 @@
 import imagen1 from '../Img/bgPrincipal.png'
+import imgCombi from '../Img/combinada.png'
 import '../Css/Container.css'
 import lgCondOrange from '../Img/icCondOrange.png'
 import lgPolOrange from '../Img/icPolOrange.png'
@@ -14,7 +15,7 @@ export function Inicio () {
         condCard: false,
         polCard: false,
         cleanCard: false
-    }
+    } 
     );
 
     const handleMouseEnter = (card) => {
@@ -44,7 +45,7 @@ export function Inicio () {
                 </section>
 
                 <section id="sct2">
-                    <h2>Los mejores en Administración de 
+                    <h2 className='column'>Los mejores en Administración de 
                         <span> Edificios y seguridad</span>
                     </h2>
                     <div className="sect2-card">
@@ -89,7 +90,66 @@ export function Inicio () {
                 </section>
 
                 <section id="sct3">
-                    
+                        <h2>Nuestros<span>&nbsp;Servicios</span></h2>
+                    <div className="sct3-servicios">
+                            <h3>Administracion de Edificios</h3>
+
+                        <div className="sct3-admin">
+                                <div className="card">
+                                    <img src="#" alt="IMAGEN" />
+                                    <h4>Consejeria</h4>
+                                    <p>Servicio integral de atención y cuidado para la comunidad.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src="#" alt="IMAGEN" />
+                                    <h4>Porteria</h4>
+                                    <p> Control y gestión eficiente de accesos y salidas.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src="#" alt="IMAGEN" />
+                                    <h4>Recepcionistas</h4>
+                                    <p>Recepción cordial y profesional para visitantes y clientes.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src="#" alt="IMAGEN" />
+                                    <h4>Auxliar de Limpieza</h4>
+                                    <p>Mantenimiento impecable y cuidado de espacios.
+                                    </p>
+                                </div>
+                        </div>
+                        <h3>Seguridad y vigilancia</h3>
+                    <div className="sct3-seguridad">
+
+                            <div className="card">
+                                <img src="#" alt="IMAGEN" />
+                                <h4>Vigilancia preventiva</h4>
+                                <p>Monitoreo constante para evitar situaciones de riesgo.
+                                </p>
+                            </div>
+                            <div className="card">
+                                <img src="#" alt="IMAGEN" />
+                                <h4>Preventor de pérdidas</h4>
+                                <p>Estrategias para minimizar riesgos y pérdidas.
+                                </p>
+                            </div>
+                            <div className="card">
+                                <img src="#" alt="IMAGEN" />
+                                <h4>Resguardo policial</h4>
+                                <p>Protección y seguridad respaldada por expertos.
+                                </p>
+                            </div>
+                            <div className="card">
+                                <img src="#" alt="IMAGEN" />
+                                <h4>Escolta personal</h4>
+                                <p>Acompañamiento y protección personalizada.
+                                </p>
+                            </div>
+                    </div>
+
+                        </div>
                 </section>
                 <section id="sct4"></section>
             </div>

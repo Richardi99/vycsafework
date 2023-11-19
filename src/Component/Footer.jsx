@@ -28,7 +28,7 @@ export const Footer = () => {
                 </div>
 
                 <div className="footer-col">
-                    <h3>SERVICIOS GENERALES</h3>
+                    <h3>OTROS SERVICIOS</h3>
                         <ul>
                             <li>Conserjeria</li>
                             <li>Porteria</li>

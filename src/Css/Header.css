@@ -42,8 +42,8 @@ header nav .link-mobile {
 }
 
 header nav img {
-    padding: 10px 0;
-    width: 140px;
+    padding: 8px 0;
+    width: 100px;
     height: auto;
 }
 
@@ -53,6 +53,7 @@ header nav ol {
 header nav ol a {
     text-decoration: none;
     color: #ffff;
+    font-size: clamp(14px,5vw,16px);
     padding: 5px 10px;
     margin-left: 2rem;
     font-family: var(--font-Mono);
@@ -63,10 +64,11 @@ header nav ol a:hover {
     font-weight: 500;
 }
 
+
 .bar-contact {
-    padding-top: 90px;
+    padding-top: 70px;
     width: 100%;
-    top:90px;
+    top:60px;
     background-color: #FF6635;
     text-align: center;
     
@@ -154,7 +156,11 @@ header nav ol a:hover {
             padding-bottom: 30px;
             
         }
-        
+
+        .menu-burger button:focus,
+        .menu-burger button:active {
+            outline: none;
+        }
     }
 
     /********************************************/
