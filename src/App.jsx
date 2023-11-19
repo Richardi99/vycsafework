@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => { 
       setLoading(false); // Cambia loading a false después de 2 segundos (2000ms)
-    }, 2500)
+    }, 2000)
   }, []);
 
   useEffect(() => {

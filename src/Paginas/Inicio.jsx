@@ -7,6 +7,8 @@ import icVig from '../Img/icons/ic-camara.png'
 import icPrevent from '../Img/icons/ic-prevent.png'
 import icResguard from '../Img/icons/ic-police.png'
 import icEscolta from '../Img/icons/ic-guarda.png'
+import icSuper from '../Img/imgSuper.jpg'
+import icasesoria from '../Img/asesoria.jpg'
 
 import '../Css/Container.css'
 import lgCondOrange from '../Img/icCondOrange.png'
@@ -33,6 +35,8 @@ export function Inicio () {
     const handleMouseLeave = (card) => {
         setHoveredCards(prevState => ({ ...prevState, [card]: false }));
     };   
+
+        
 
     return (
         <>
@@ -158,7 +162,40 @@ export function Inicio () {
 
                         </div>
                 </section>
-                <section id="sct4"></section>
+
+                <section id="sct4">
+                <h2>Nuestras<span>&nbsp;Soluciones</span></h2>
+                    <div className="sct4-soluciones">
+                        <div className="card1">
+                            <img src= {icasesoria} alt="IMAGEM" />
+                        </div>
+                        <div className="card">
+                            <h4>Asesoria, consultoria para revisión general</h4>
+                                <p>Velamos y garantizamos tu seguridad y bienestar al examinar minuciosamente
+                                    la infraestructura, sistemas y administración de tu propiedad. Identificamos
+                                    posibles problemas y tomamos medidas preventivas. Nuestros informes proporcionan
+                                    una visión precisa de cualquier deficiencia, permitiéndote tomar acciones correctivas
+                                    para mejorar tu entorno residencial. Tu tranquilidad es nuestra máxima prioridad.
+                                .</p>
+                                <button className='btn-solicitar'>Solicitar información</button>
+                        </div>
+                        <div className="card">
+                            <h4>Supervisión de personal y Estados de cuenta</h4>
+                                <p>Supervisamos al personal para optimizar su rendimiento y gestionamos estados de cuenta
+                                    con precisión financiera y transparencia. Estos procesos son esenciales para mantener
+                                    la eficiencia operativa e integridad financiera en el entorno empresarial actual.
+                                .</p>
+                                <button className='btn-solicitar'>Solicitar información</button>
+                        </div>
+                        <div className="card">
+                         <img src= {icSuper} alt="IMAGEM" />
+                        </div>
+                    </div>
+                </section>
+
+                <section id='sect5'>
+                    <h2>Contáctanos</h2>
+                </section>
             </div>
         </>
     )
