@@ -1,5 +1,13 @@
 import imagen1 from '../Img/bgPrincipal.png'
-import imgCombi from '../Img/combinada.png'
+import icConserjeria from '../Img/icons/ic-conserje.png'
+import icPorteria from '../Img/icons/ic-portero.png'
+import icRecep from '../Img/icons/ic-recep.png'
+import icAuxL from '../Img/icons/ic-limpieza.png'
+import icVig from '../Img/icons/ic-camara.png'
+import icPrevent from '../Img/icons/ic-prevent.png'
+import icResguard from '../Img/icons/ic-police.png'
+import icEscolta from '../Img/icons/ic-guarda.png'
+
 import '../Css/Container.css'
 import lgCondOrange from '../Img/icCondOrange.png'
 import lgPolOrange from '../Img/icPolOrange.png'
@@ -24,8 +32,7 @@ export function Inicio () {
     
     const handleMouseLeave = (card) => {
         setHoveredCards(prevState => ({ ...prevState, [card]: false }));
-    };
-    
+    };   
 
     return (
         <>
@@ -96,25 +103,25 @@ export function Inicio () {
 
                         <div className="sct3-admin">
                                 <div className="card">
-                                    <img src="#" alt="IMAGEN" />
+                                    <img src= {icConserjeria} alt="IMAGEN" />
                                     <h4>Consejeria</h4>
                                     <p>Servicio integral de atención y cuidado para la comunidad.
                                     </p>
                                 </div>
                                 <div className="card">
-                                    <img src="#" alt="IMAGEN" />
+                                    <img src= {icPorteria} alt="IMAGEN" />
                                     <h4>Porteria</h4>
                                     <p> Control y gestión eficiente de accesos y salidas.
                                     </p>
                                 </div>
                                 <div className="card">
-                                    <img src="#" alt="IMAGEN" />
+                                    <img src= {icRecep} alt="IMAGEN" />
                                     <h4>Recepcionistas</h4>
                                     <p>Recepción cordial y profesional para visitantes y clientes.
                                     </p>
                                 </div>
                                 <div className="card">
-                                    <img src="#" alt="IMAGEN" />
+                                    <img src= {icAuxL} alt="IMAGEN" />
                                     <h4>Auxliar de Limpieza</h4>
                                     <p>Mantenimiento impecable y cuidado de espacios.
                                     </p>
@@ -124,25 +131,25 @@ export function Inicio () {
                     <div className="sct3-seguridad">
 
                             <div className="card">
-                                <img src="#" alt="IMAGEN" />
+                                <img src= {icVig} alt="IMAGEN" />
                                 <h4>Vigilancia preventiva</h4>
                                 <p>Monitoreo constante para evitar situaciones de riesgo.
                                 </p>
                             </div>
                             <div className="card">
-                                <img src="#" alt="IMAGEN" />
+                                <img src= {icPrevent} alt="IMAGEN" />
                                 <h4>Preventor de pérdidas</h4>
                                 <p>Estrategias para minimizar riesgos y pérdidas.
                                 </p>
                             </div>
                             <div className="card">
-                                <img src="#" alt="IMAGEN" />
+                                <img src= {icResguard} alt="IMAGEN" />
                                 <h4>Resguardo policial</h4>
                                 <p>Protección y seguridad respaldada por expertos.
                                 </p>
                             </div>
                             <div className="card">
-                                <img src="#" alt="IMAGEN" />
+                                <img src= {icEscolta} alt="IMAGEN" />
                                 <h4>Escolta personal</h4>
                                 <p>Acompañamiento y protección personalizada.
                                 </p>

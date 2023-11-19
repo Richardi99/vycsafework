@@ -189,8 +189,8 @@
 #sct3 p,h4 {
     color: #ffff;
 }
-#sct3 p,h4 {
-
+#sct3 h4 {
+    font-size: clamp(16px,5vw,18px);
 }
 #sct3 .card {
     border-radius: 2px;
@@ -213,19 +213,16 @@
 
 
 #sct3 .card:hover {
-    background: rgba(200, 64, 19, 0.8); /* Color de fondo */
-    box-shadow:  2px 2px 4px rgba(210, 70, 24, 0.6),
-    -2px -2px 4px rgba(210, 70, 24, 0.6); /* Sombra */
-    transform: scale(1.085) rotate(-1deg);
+    background: rgba(200, 64, 19, 0.6); /* Color de fondo */
+    
+    transform: scale(1.075) rotate(-1deg);
 }
 
 #sct3 .card:hover h4{
     transform: rotate(1deg); /* Contrarrestar la rotación de la tarjeta */
-    transition: transform 0.1s ease; 
 }
 #sct3 .card:hover p{
     transform: rotate(1deg); /* Contrarrestar la rotación de la tarjeta */
-    transition: transform 0.1s ease; 
 }
 
 #sct3 .card p {
@@ -234,6 +231,11 @@
 
 #sct3 .card h4 {
     text-align: start;
+
+}
+#sct3 .card img {
+    width: 70px;
+    height: 70px;
 }
 
 
