@@ -18,6 +18,8 @@ import lgCondBlue from '../Img/icCodBlue.png'
 import lgPolBlue from '../Img/icPolBlue.png'
 import lgCleanBlue from '../Img/icCleanBlue.png'
 import React, { useState } from "react"
+import icPdf from '../Img/icons/ic-pdf.png'
+import brochure from '../Fies/BROCHURE V&C SAFE WORK S.A.C.-2.pdf'
 
 export function Inicio () {
 
@@ -197,23 +199,37 @@ export function Inicio () {
                     <h2>Contáctanos</h2>
                     <div className="formulario">
                         <div className="cont-cuadro">
-                            <h5>Contàctanos</h5>
+                            <h5>Contáctanos</h5>
                             <p>Tenemos un asesor disponlible para atenderte con gusto</p>
                         </div>
                         <form action='post'>
                             <h5>Enviamos un mensaje</h5>
-                            <label htmlFor="name">Nombre:</label>
-                            <input type="text" id="name" name="name" required />
-
-                            <label htmlFor="email">Correo electrónico:</label>
-                            <input type="email" id="email" name="email" required />
-
-                            <label htmlFor="message">Mensaje:</label>
-                            <textarea id="message" name="message" required></textarea>
-
-                            <input type="submit" value="Enviar" />
+                            <div className="nombre">
+                                <input type="text" id="name" name="name" required />
+                                <label htmlFor="name">Nombre:</label>
+                            </div>
+                            <div className="correo">
+                                <input type="email" id="email" name="email" required />
+                                <label htmlFor="email">Correo electrónico:</label>
+                            </div>
+                            <div className="txarea">
+                                <textarea id="message" name="message" required></textarea>
+                                <label htmlFor="message">Mensaje:</label>
+                            </div>
+                            <div className="btn-enviar">
+                            <button className='btn-solicitar sct5-enviar'>Enviar Mensaje</button>
+                            </div>
                         </form>                 
 
+                    </div>
+                </section>
+
+                <section id='sct6'>
+                    <h6>DESCARGAR FOLLETO CORPORATIVO</h6>
+                    <div className="link-folleto">
+                        <a href={brochure} download={brochure}><img src= {icPdf} alt="IMG" />
+                        BROCHURE 2023
+                        </a>
                     </div>
                 </section>
             </div>

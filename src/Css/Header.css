@@ -86,7 +86,7 @@ header nav ol a:hover {
 
     @media(max-width:790px) {
         body {
-            background-color: red;
+            /* background-color: red; */
         }
 
         header nav {

@@ -364,21 +364,171 @@ h2{
 }
 
 #sct5 {
-    justify-content: center;
     display: flex;
+    justify-content: start;
     flex-direction: column;
-    
-}
-#sct5 .formulario {
-    display: flex;
-    flex-direction: row;
-    max-width: 700px;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 40px;
+    margin-bottom: 100px;
+    font-family: var(--fontMono);
 }
 .cont-cuadro {
     background-color: #DC5529;
+    min-height: 280px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+    text-align: start;
+    justify-content: center;
+    padding: 0 8px;
+    margin-right: 25px;
+}
+.cont-cuadro h5,p {
+    font-family: var(--fontMono);
+    color: white;
+}
+.cont-cuadro h5 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.cont-cuadro p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#sct5 .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0 auto;
+}
+#sct5 form h5 {
+    font-size: 20px;
+    color: #FF3D00;
+}
+
+#sct5 .formulario form {
+    margin-left: 20px;
+    width: 250px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+#sct5 .formulario .nombre, .correo, .txarea{
+    position: relative;
+    margin: auto 0;
+}
+#sct5 .formulario .txarea {
+    position: relative;
+}
+
+#sct5 .formulario textarea {
+    width: calc(100% - 15px);
+    height: 60px;
+    border: 1px solid #746b6b69;    
+    border-radius: 4px;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#sct5 .formulario input{
+    width: calc(100% - 15px);
+    height: 40px;
+    font-size: clamp(12px,5vw,14px);
+    padding: 0, 15px;
+    border: 1px solid #746b6b69;
+    background: transparent;
+    color: #303030;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+#sct5 .formulario label{
+ position: absolute;   
+ top: 50%;
+ left: 15px;
+ transform: translateY(-50%);
+ color: #3030307d;
+ font-size: clamp(12px,5vw,14px);transition: .3s;
+}
+
+#sct5 .formulario input:focus ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+    padding: 0 2px;
+    background: white;
+
+}
+
+
+
+#sct5 .formulario .nombre input:not(:placeholder-shown) ~ label,
+#sct5 .formulario .correo input:not(:placeholder-shown) ~ label,
+#sct5 .formulario textarea:not(:placeholder-shown) ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+    padding: 0 2px;
+    background: white;
+}
+
+#sct5 .formulario form .txarea textarea:focus,
+#sct5 .formulario form .txarea textarea:active{
+    border: 1px solid #746b6b69;
+}
+
+#sct5 .btn-enviar button{
+    width: 100%;
+    background-color: #DC5529;
+    border: none;
+    height: 30px;
+    margin-top: 0;
+    border-radius: 2px;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+
+#sct6 {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+    font-family: var(--fontMono);
+    color: #ffff;
+    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/imagenrecortada.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#sct6 h6, .link-folleto{
+    font-weight: 700;
+    font-size: clamp(20px, 5vw,25px);
+}
+#sct6  .link-folleto{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
+
+#sct6 .link-folleto a{
+    border-bottom: 1px solid #ffffff50;
+    text-decoration: none;
+    color: #ffff;
+    transition: .2s ease;
+}
+#sct6 .link-folleto a img{
+    width: 25px;
+    padding-right: 10px;
+}
+
+#sct6 .link-folleto a:hover {
+    color: #f6d1c4;
 }
 
 
@@ -430,6 +580,7 @@ h2{
     width: 100%;
     height: 100vh;
   }
+  
   
 
 
