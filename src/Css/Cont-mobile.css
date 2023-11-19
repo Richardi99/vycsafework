@@ -36,7 +36,45 @@
         margin-top: 8px;
     }
     #inicio h2 {
-        font-size: clamp(20px,8vw,35px);
+        font-size: clamp(18px,8vw,30px);
+    }
+
+    #sct2 .sect2-card {
+        margin: 0 12px;
+        gap: 0;
+        margin-bottom: 0;
+    }
+    #sct2 .sect2-card div{
+        margin-bottom: 2px;
+        margin-top:0;
+    }
+    #sct2 .sect2-card div h4 {
+        font-size: clamp(15px, 6vw, 17px);
+    }    
+
+    #sct2 .sect2-card div p{
+        width: 100%;
+         font-size: clamp(14px, 6vw, 15px);
+    }
+
+    #inicio #sct3 h2 {
+        margin: 0 auto;
+    }
+
+    .sct3-servicios{
+        margin: 0 15px;
+    }
+
+    .sct3-servicios .sct3-admin, .sct3-seguridad{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+
+    #sct3 .card {
+        width: 45%;
     }
 
 
@@ -72,12 +110,48 @@
         margin-top: 20px;
     }
 
-    #inicio h2 {
-        font-size: clamp(20px,8vw,25px);
+    #sct2 h2 {
+        display: inline-block;
+        font-size: clamp(16px,8vw,24px);
     }
 
     #sct2 {
-        margin-top: 150px;
+        margin-top: 160px;
+    }
+
+    #sct2 .sect2-card {
+        margin: 0 18px;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    #sct3 {
+        margin-top: 30px;
+        display: flex;
+    }
+    #inicio #sct3 h2 {
+        font-size: clamp(16px,8vw,24px);
+        margin: 0 auto;
+    }
+
+    .sct3-servicios .sct3-admin, .sct3-seguridad{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sct3-servicios .sct3-admin {
+        padding-bottom: 20px;
+    }
+
+    #sct3 h3 {
+        font-size: clamp(17px,5vw,20px);
+        padding-left: 5px;
+    }
+
+    #sct3 .card {
+        width: 90%;
     }
 
 }
@@ -88,7 +162,15 @@
 
 @media (max-width: 350px) {
     #sct1 img {
-        height: 185px;
+        height: 180px;
+    }
+    #inicio h2 {
+        margin-top: 0;
+        display: inline-block;
+        font-size: clamp(15px,8vw,20px);
+    }
+    #sct1 .sct1texto {
+        top: 118px;
     }
 }
 
