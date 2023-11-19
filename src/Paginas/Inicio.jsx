@@ -212,7 +212,7 @@ export function Inicio () {
                             <h5>Contáctanos</h5>
                             <p>Tenemos un asesor disponlible para atenderte con gusto</p>
                         </div>
-                        <form action='post'>
+                        <form className="form" action='post'>
                             <h5>Enviamos un mensaje</h5>
                             <div className="nombre">
                                 <input type="text" id="name" name="name" required />

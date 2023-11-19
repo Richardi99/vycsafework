@@ -10,9 +10,9 @@
         top: 20%;
     }
 
-    #sct5{
+    /* #sct5{
         display: none;
-    }
+    } */
 }
 
 @media (max-width: 796px) {
@@ -205,11 +205,40 @@
 
     #sct4 .sct4-soluciones .card:nth-child(2) {
         padding: 0 20px;
+        line-height: 1.5;
     }
     #sct4 .sct4-soluciones .card:nth-child(3) {
         padding: 0 20px;
+        line-height: 1.5;
     }
     
+    
+    #sct5 .formulario {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sct5 .formulario .cont-cuadro:nth-child(1) {order: 2}
+    #sct5 .formulario .form:nth-child(2) {order: 1}
+
+    #inicio #sct5 h2 {
+        margin: 10px auto;
+    }
+
+    #sct5 .formulario .form {
+        margin-bottom: 50px;
+        width:  calc(100% - 40px);
+    }
+
+    #sct5 .formulario form {
+        padding: 0 0 0 0;
+    }
+
+    #sct5 .formulario form h5 {
+        margin-bottom: 15px;
+    }
+
 
 }
 
