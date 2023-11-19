@@ -57,10 +57,12 @@ export function Inicio () {
                     </div>
                     <div className="sct1texto">
                         <h1>Administración de Edificios y Seguridad</h1>
-                        <p>
-                        Ofrecemos una amplia gama de servicios generales para 
-                        satisfacer todas sus necesidades de mantenimiento y reparación
-                        </p>
+                           <div className="p-content">
+                            <p>
+                            Ofrecemos una amplia gama de servicios generales para 
+                            satisfacer todas sus necesidades de mantenimiento y reparación
+                            </p>
+                           </div>
                         <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                     </div>
                 </section>
@@ -173,7 +175,7 @@ export function Inicio () {
                         </div>
                 </section>
 
-                <h2>Nuestras<span>&nbsp;Soluciones</span></h2>
+                <h2 className='h2solo'>Nuestras<span>&nbsp;Soluciones</span></h2>
                 <section id="sct4">
                     <div className="sct4-soluciones">
                         <div className="card1">

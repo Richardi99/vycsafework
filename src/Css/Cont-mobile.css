@@ -10,7 +10,7 @@
         top: 20%;
     }
 
-    #sct4 , #sct5{
+    #sct5{
         display: none;
     }
 }
@@ -29,7 +29,7 @@
         
     }
     .container-img::after {
-        background: linear-gradient(360deg, #2B2828 -4.94%, rgba(167, 166, 166, 0.25) 36.53%, rgba(217, 217, 217, 0.00) 42.53%);
+        background: linear-gradient(360deg, #2b2828cf -4.94%, rgba(127, 126, 126, 0.581) 36.53%, rgba(217, 217, 217, 0.00) 42.53%);
     }
 
     .btn-solicitar {
@@ -77,6 +77,36 @@
         width: 45%;
     }
 
+    #sct4 .sct4-soluciones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sct4 .sct4-soluciones .card:nth-child(4) { order:3; }
+    #sct4 .sct4-soluciones .card:nth-child(3) { order:4; }
+
+    #sct4 .card {
+        justify-content: space-between;
+    }
+
+    #sct4 .sct4-soluciones h4 {
+        padding: 20px 0;
+        margin-top: 10px;
+    }
+
+    #sct4 .sct4-soluciones p {
+        padding: 10px 0;
+    }
+
+    #inicio .h2solo {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        font-size: clamp(18px,8vw,30px);
+    }
+
+
 
 }
 
@@ -86,13 +116,14 @@
     #sct1 img {
         height: 190px;
     }
+
+
     #sct1 .sct1texto {
         display: flex;
         flex-direction: column;
         left: 15px;
         top: 125px;
         align-items: center;
-        
     }
     .sct1texto h1 {
         font-size: clamp(16px,8vw,24px);
@@ -100,8 +131,9 @@
 
     .sct1texto p {
         margin-top: 20px;
-        color: #303030;
+        color: #303030d3;
         width: 100%;
+        font-weight: 480;
         font-size: clamp(14px,5vw,15px);
     }
 
@@ -145,6 +177,10 @@
         padding-bottom: 20px;
     }
 
+    #sct3 {
+        margin-bottom: 25px;
+    }
+
     #sct3 h3 {
         font-size: clamp(17px,5vw,20px);
         padding-left: 5px;
@@ -153,6 +189,27 @@
     #sct3 .card {
         width: 90%;
     }
+
+    #inicio .h2solo {
+        font-size: clamp(16px,8vw,24px);
+    }
+
+    #sct4 {
+        margin-top: 25px;
+    }
+
+    #sct4 .sct4-soluciones img{
+        max-width: 280px;
+        padding-top: 10px;
+    }
+
+    #sct4 .sct4-soluciones .card:nth-child(2) {
+        padding: 0 20px;
+    }
+    #sct4 .sct4-soluciones .card:nth-child(3) {
+        padding: 0 20px;
+    }
+    
 
 }
 
@@ -170,7 +227,7 @@
         font-size: clamp(15px,8vw,20px);
     }
     #sct1 .sct1texto {
-        top: 118px;
+        top: 112px;
     }
 }
 
