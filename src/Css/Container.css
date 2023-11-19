@@ -305,18 +305,19 @@
 }
 
 #sct4 {
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
-    margin-bottom: 200px;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.935),rgba(15, 44, 69, 0.935));
+
 }
-#sct4 h2{
+h2{
     padding: 20px;
     justify-content: center;
     color: #303030;
 }
 #sct4 .sct4-soluciones {
+    max-width: 1000px;
     place-items: center;
     font-family: var(--fontMono);
     display: grid;  
@@ -333,7 +334,6 @@
     justify-content: space-around;
     align-items: start;
 }
-
 #sct4 .sct4-soluciones .card:nth-child(2){
     padding: 0 50px;
     color: #ffff;
@@ -350,19 +350,35 @@
     justify-content: space-b;
     background-image: linear-gradient(to left, rgba(15, 44, 69, 0.367),rgba(107, 64, 23, 0.186))
 }
-
 #sct4 .sct4-soluciones h4 {
     font-size: 25px;
     font-weight: 600;
     margin-top: 50px;
 }
-
 #sct4 .sct4-soluciones img {
     max-width: 500px;
     height: 100%;
 }
 #sct4 .sct4-soluciones button {
     margin-bottom: 50px;
+}
+
+#sct5 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#sct5 .formulario {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+.cont-cuadro {
+    background-color: #DC5529;
 }
 
 

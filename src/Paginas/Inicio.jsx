@@ -163,8 +163,8 @@ export function Inicio () {
                         </div>
                 </section>
 
-                <section id="sct4">
                 <h2>Nuestras<span>&nbsp;Soluciones</span></h2>
+                <section id="sct4">
                     <div className="sct4-soluciones">
                         <div className="card1">
                             <img src= {icasesoria} alt="IMAGEM" />
@@ -193,8 +193,28 @@ export function Inicio () {
                     </div>
                 </section>
 
-                <section id='sect5'>
+                <section id='sct5'>
                     <h2>Contáctanos</h2>
+                    <div className="formulario">
+                        <div className="cont-cuadro">
+                            <h5>Contàctanos</h5>
+                            <p>Tenemos un asesor disponlible para atenderte con gusto</p>
+                        </div>
+                        <form action='post'>
+                            <h5>Enviamos un mensaje</h5>
+                            <label htmlFor="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required />
+
+                            <label htmlFor="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required />
+
+                            <label htmlFor="message">Mensaje:</label>
+                            <textarea id="message" name="message" required></textarea>
+
+                            <input type="submit" value="Enviar" />
+                        </form>                 
+
+                    </div>
                 </section>
             </div>
         </>
