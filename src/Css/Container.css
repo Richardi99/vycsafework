@@ -144,7 +144,6 @@
         }
       }
     font-size: clamp(20px,8vw,35px);
-    width: 90%;
     text-align: center;
     margin: 50px auto;
     font-family: var(--fontMono);
