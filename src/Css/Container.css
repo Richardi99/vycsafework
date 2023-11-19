@@ -142,7 +142,7 @@
     margin-top: 50px;
     height: auto;
     background-color: #00628B;     
-    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada.png);
+    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.png);
     flex-direction: column;
     justify-content: center;
     background-size: cover;
@@ -199,8 +199,8 @@
     height: 200px;
     border-radius: 2px;
     background: #00618b84;
-    box-shadow:  2px 2px 4px #005c8390,
-             -2px -2px 4px #00679378;
+    /* box-shadow:  2px 2px 4px #005c8390,
+             -2px -2px 4px #00679378; */
     padding: 5px;
     margin-bottom: 30px;
     display: flex;
@@ -214,7 +214,7 @@
 
 #sct3 .card:hover {
     background: rgba(200, 64, 19, 0.6); /* Color de fondo */
-    
+    box-shadow: none;
     transform: scale(1.075) rotate(-1deg);
 }
 
