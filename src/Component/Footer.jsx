@@ -49,7 +49,7 @@ export const Footer = () => {
          </div>
          <aside className= "Bn-richardi">
             <p>
-            v&cSafework © 2023 | Todos los Derechos Reservados, Diseñado por <a href="https://bryan-richardi.netlify.app/"  target="_blank">"Byrtec.com"</a> 
+            v&cSafework © 2023 | Todos los Derechos Reservados, Diseñado por <a href="#"  target="_blank">"Byrtec.com"</a> 
             </p>
          </aside>
        </footer>

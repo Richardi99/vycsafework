@@ -37,6 +37,12 @@ export function Inicio () {
     const handleMouseLeave = (card) => {
         setHoveredCards(prevState => ({ ...prevState, [card]: false }));
     };   
+    const handleScrollToSection = () => {
+        const section6 = document.getElementById('sct5');
+        if (section6) {
+          section6.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
 
         
 
@@ -53,7 +59,7 @@ export function Inicio () {
                         Ofrecemos una amplia gama de servicios generales para 
                         satisfacer todas sus necesidades de mantenimiento y reparación
                         </p>
-                        <button className='btn-solicitar'>Solicitar información</button>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                     </div>
                 </section>
 
@@ -179,7 +185,7 @@ export function Inicio () {
                                     una visión precisa de cualquier deficiencia, permitiéndote tomar acciones correctivas
                                     para mejorar tu entorno residencial. Tu tranquilidad es nuestra máxima prioridad.
                                 .</p>
-                                <button className='btn-solicitar'>Solicitar información</button>
+                                <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                         </div>
                         <div className="card">
                             <h4>Supervisión de personal y Estados de cuenta</h4>
@@ -187,7 +193,7 @@ export function Inicio () {
                                     con precisión financiera y transparencia. Estos procesos son esenciales para mantener
                                     la eficiencia operativa e integridad financiera en el entorno empresarial actual.
                                 .</p>
-                                <button className='btn-solicitar'>Solicitar información</button>
+                                <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                         </div>
                         <div className="card">
                          <img src= {icSuper} alt="IMAGEM" />
