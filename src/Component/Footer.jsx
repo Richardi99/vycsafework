@@ -3,6 +3,7 @@ import logo from '../Img/logosinbg.png';
 import ubic from '../Img/ubicacionMAPA.jpeg';
 import { Link } from 'react-router-dom';
 
+
 export const Footer = () => {
     return (
        <footer>
@@ -20,10 +21,10 @@ export const Footer = () => {
                 <div className="footer-col col2">
                     <h3>ENLACES INTERNOS</h3>
                         <ul>
-                            <li><a href="../Paginas/Inicio.jsx">Inicio</a></li>
-                            <li><a href="../Paginas/Nosotros.jsx">Nosotros</a></li>
-                            <li><a href="../Paginas/Contacto.jsx">Contáctanos</a></li>
-                            <li><a href="#">Nuestros servicos</a></li>
+                            <li><Link to="/">Inicio</Link></li>
+                            <li><Link to="/nosotros">Nosotros</Link></li>
+                            <li><Link to="/servicio">Servicios</Link></li>
+                            <li><Link to="/contactanos">Contáctanos</Link></li>
                         </ul>
                 </div>
 

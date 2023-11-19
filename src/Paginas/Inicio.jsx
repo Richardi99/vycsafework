@@ -11,6 +11,8 @@ import icSuper from '../Img/imgSuper.jpg'
 import icasesoria from '../Img/asesoria.jpg'
 
 import '../Css/Container.css'
+import '../Css/Cont-mobile.css'
+
 import lgCondOrange from '../Img/icCondOrange.png'
 import lgPolOrange from '../Img/icPolOrange.png'
 import lgCleanOrange from '../Img/icCleanOrange.png'
