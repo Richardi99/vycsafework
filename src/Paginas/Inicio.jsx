@@ -19,9 +19,11 @@ import lgCleanOrange from '../Img/icCleanOrange.png'
 import lgCondBlue from '../Img/icCodBlue.png'
 import lgPolBlue from '../Img/icPolBlue.png'
 import lgCleanBlue from '../Img/icCleanBlue.png'
-import React, { useState } from "react"
 import icPdf from '../Img/icons/ic-pdf.png'
 import brochure from '../Fies/BROCHURE V&C SAFE WORK S.A.C.-2.pdf'
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser'
+
 
 export function Inicio () {
 
@@ -46,7 +48,22 @@ export function Inicio () {
         }
       };
 
-      
+      const form = useRef();
+
+      /* SECCION PARA ENVIAR CORREOS ---------------------  */
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ony031l', 'template_gn90oix', form.current, 'gyTb0ybqHn8ZFNqeW')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  /* ----------------------------------------------- */
 
         
 
@@ -214,14 +231,14 @@ export function Inicio () {
                             <h5>Contáctanos</h5>
                             <p>Tenemos un asesor disponlible para atenderte con gusto</p>
                         </div>
-                        <form className="form" action='post'>
+                        <form ref={form} onSubmit={sendEmail} className="form" action='post'>
                             <h5>Enviamos un mensaje</h5>
                             <div className="nombre">
-                                <input type="text" id="name" name="name" required />
+                                <input type="text" id="name" name="user_name" required />
                                 <label htmlFor="name">Nombre:</label>
                             </div>
                             <div className="correo">
-                                <input type="email" id="email" name="email" required />
+                                <input type="email" id="email" name="user_email" required />
                                 <label htmlFor="email">Correo electrónico:</label>
                             </div>
                             <div className="txarea">
@@ -229,7 +246,7 @@ export function Inicio () {
                                 <label htmlFor="message">Mensaje:</label>
                             </div>
                             <div className="btn-enviar">
-                            <button className='btn-solicitar sct5-enviar'>Enviar Mensaje</button>
+                            <button type='submit' value='send' className='btn-solicitar sct5-enviar'>Enviar Mensaje</button>
                             </div>
                         </form>                 
 
