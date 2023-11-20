@@ -6,6 +6,7 @@
     width: 100%;
     height: auto;
     position: relative;
+
 }
 
 /* #sct1 {
@@ -16,21 +17,6 @@
     height: 92vh;
 }
 
-#sct1 {
-    opacity: 0;
-    animation: aparecerTexto 1.5s forwards;
-}
-
-@keyframes aparecerTexto {
-    from {
-        opacity: 0;
-        transform: translateY(-500px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 #sct1 h1,p {
     opacity: 0;
     animation: aparecerTexto 1.5s forwards;

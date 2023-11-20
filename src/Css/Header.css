@@ -172,7 +172,7 @@ header nav ol a:hover {
     @media (max-width:490px) {
         header nav .link-mobile {
             width: 100%;
-            top: 70px;
+            top: 65px;
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
         }

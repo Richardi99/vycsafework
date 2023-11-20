@@ -227,8 +227,10 @@
     }
 
     #sct5 .formulario .form {
+        margin-left: 0;
         margin-bottom: 50px;
-        width:  calc(100% - 40px);
+        padding: 0 10px;
+        width:  calc(100% - 20px);
     }
 
     #sct5 .formulario form {
@@ -238,6 +240,40 @@
     #sct5 .formulario form h5 {
         margin-bottom: 15px;
     }
+
+    #sct5 .formulario .cont-cuadro {
+        margin-left: 10px;
+        width: calc(100% - 38px);
+        min-height: 130px;
+        max-height: 150px;
+    }
+
+    #sct6 {
+        padding: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #sct6  .link-folleto{
+        padding: 10px 0;
+        align-items: center;
+    }
+    #sct6 h6 {
+        display: flex;
+    }
+    #sct6 h6 ,a{
+        font-size: clamp(12px, 5vw,14px);
+        align-items: center;
+    }
+
+    #sct6 .link-folleto a{
+        font-size: clamp(10px, 5vw,12px);
+    }
+
+    #sct6 .link-folleto a img{
+        width: 10px;
+    }
+
 
 
 }
