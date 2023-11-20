@@ -1,6 +1,6 @@
 
 export const Nosotros = () => {
     return (
-        <p>NOSOSTROS</p>
+        <p>NOSOSTROS PROBANDO DESDE </p>
     )
 }
