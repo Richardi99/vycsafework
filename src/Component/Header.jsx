@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../Img/logosinbg.png';
 import '../Css/Header.css';
 import menu from '../Img/icmenu.png';
+import { Comunicate } from "./comunicate";
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -52,9 +53,7 @@ export const Header = () => {
                     </ol>
                 </nav>
             </header>
-            <div className="bar-contact">
-                <h3>Comunícate con nosotros al +51 903287955</h3>
-            </div>
+           
         </>
     );
 };

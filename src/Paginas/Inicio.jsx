@@ -23,6 +23,8 @@ import icPdf from '../Img/icons/ic-pdf.png'
 import brochure from '../Fies/BROCHURE V&C SAFE WORK S.A.C.-2.pdf'
 import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser'
+import { Formulario } from '../Component/Formulario'
+import { Comunicate } from '../Component/comunicate'
 
 
 export function Inicio () {
@@ -42,16 +44,16 @@ export function Inicio () {
         setHoveredCards(prevState => ({ ...prevState, [card]: false }));
     };   
     const handleScrollToSection = () => {
-        const section6 = document.getElementById('sct5');
-        if (section6) {
-          section6.scrollIntoView({ behavior: 'smooth' });
+        const section5 = document.getElementById('sct5');
+        if (section5) {
+          section5.scrollIntoView({ behavior: 'smooth' });
         }
       };
 
-      const form = useRef();
-
+      
       /* SECCION PARA ENVIAR CORREOS ---------------------  */
-
+      const form = useRef();
+      
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -69,6 +71,7 @@ export function Inicio () {
 
     return (
         <>
+        <Comunicate comunicate={true}/>
             <div id="inicio">
                 <section id="sct1">
                     <div className='container-img'>
@@ -224,34 +227,7 @@ export function Inicio () {
                     </div>
                 </section>
 
-                <section id='sct5'>
-                    <h2>Contáctanos</h2>
-                    <div className="formulario">
-                        <div className="cont-cuadro">
-                            <h5>Contáctanos</h5>
-                            <p>Tenemos un asesor disponlible para atenderte con gusto</p>
-                        </div>
-                        <form ref={form} onSubmit={sendEmail} className="form" action='post'>
-                            <h5>Enviamos un mensaje</h5>
-                            <div className="nombre">
-                                <input type="text" id="name" name="user_name" required />
-                                <label htmlFor="name">Nombre:</label>
-                            </div>
-                            <div className="correo">
-                                <input type="email" id="email" name="user_email" required />
-                                <label htmlFor="email">Correo electrónico:</label>
-                            </div>
-                            <div className="txarea">
-                                <textarea id="message" name="message" required></textarea>
-                                <label htmlFor="message">Mensaje:</label>
-                            </div>
-                            <div className="btn-enviar">
-                            <button type='submit' value='send' className='btn-solicitar sct5-enviar'>Enviar Mensaje</button>
-                            </div>
-                        </form>                 
-
-                    </div>
-                </section>
+                <Formulario mostrarTitulo={true }/>
 
                 <section id='sct6'>
                     <h6>DESCARGAR FOLLETO CORPORATIVO</h6>

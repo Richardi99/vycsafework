@@ -1,0 +1,47 @@
+:root {
+    --fontMono: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contacto #contacto-sect1 {
+    margin-top: 65px;
+    background-color: red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--fontMono);
+    margin-bottom: 50px;
+    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/trigo.jpg);
+    
+    background-size: cover;
+
+}
+
+#contacto-sect1 h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: clamp(20px,5vw,40px);
+}
+
+#contacto-sect1 h2 {
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    text-align: center;
+}
+#contacto #contacto-sect1 .bar-contact {
+    display: none;
+}
+
+#contacto .ic-facebook, .ic-tiktok, .ic-mail {
+    background-color: rgba(129, 129, 129, 0.767);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 50%;
+    /* margin-right: 5px; */
+}
+#contacto .datos2 {
+    background-color: rebeccapurple;
+}
+
+
