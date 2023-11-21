@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import logo from '../Img/logosinbg.png';
 import '../Css/Header.css';
 import menu from '../Img/icmenu.png';
@@ -7,6 +7,7 @@ import { Comunicate } from "./comunicate";
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setIsOpen(prevIsOpen => !prevIsOpen);
@@ -27,6 +28,13 @@ export const Header = () => {
         };
     }, []);
 
+    const handleClick = () => {
+        if (location.pathname === window.location.pathname) {
+            window.scrollTo(0, 0); // Hacer scroll hacia arriba si se hace clic en el enlace actual
+            setIsOpen(false); // Cerrar el menú si se hace clic en un enlace interno
+        }
+    };
+
     return (
         <>
             <header>
@@ -35,10 +43,10 @@ export const Header = () => {
                         <img src={logo} alt="LOGO"/>
                     </picture>
                     <ol className="link-principal">
-                        <Link to="/">Inicio</Link>
-                        <Link to="/nosotros">Nosotros</Link>
-                        <Link to="/servicio">Servicios</Link>
-                        <Link to="/contactanos">Contáctanos</Link>
+                        <Link to="/" onClick={handleClick}>Inicio</Link>
+                        <Link to="/nosotros" onClick={handleClick}>Nosotros</Link>
+                        <Link to="/servicio" onClick={handleClick}>Servicios</Link>
+                        <Link to="/contactanos" onClick={handleClick}>Contáctanos</Link>
                     </ol>
 
                     <div className="menu-burger">
@@ -46,14 +54,13 @@ export const Header = () => {
                     </div>
 
                     <ol className={`link-mobile ${isOpen ? 'open' : ''}`}>
-                        <Link to="/">Inicio</Link>
-                        <Link to="/nosotros">Nosotros</Link>
-                        <Link to="/servicio">Servicios</Link>
-                        <Link to="/contactanos">Contáctanos</Link>
+                        <Link to="/" onClick={handleClick}>Inicio</Link>
+                        <Link to="/nosotros" onClick={handleClick}>Nosotros</Link>
+                        <Link to="/servicio" onClick={handleClick}>Servicios</Link>
+                        <Link to="/contactanos" onClick={handleClick}>Contáctanos</Link>
                     </ol>
                 </nav>
             </header>
-           
         </>
     );
 };

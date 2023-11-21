@@ -1,10 +1,22 @@
-import '../Css/Footer.css'
+import React from 'react';
+import '../Css/Footer.css';
 import logo from '../Img/logosinbg.png';
 import ubic from '../Img/ubicacionMAPA.jpeg';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
 
 
 export const Footer = () => {
+
+    const location = useLocation();
+
+    const handleClick = () => {
+        if (location.pathname === window.location.pathname) {
+            window.scrollTo(0, 0); // Hacer scroll hacia arriba si se hace clic en el enlace actual
+        }
+    };
+
+    
     return (
        <footer>
          <div className="footer-columns center">
