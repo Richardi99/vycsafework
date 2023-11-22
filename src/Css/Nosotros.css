@@ -15,7 +15,7 @@
 }
 
 
-#nosotros-sect1 h1,h2{
+#nosotros #nosotros-sect1 .h1nosotros,.h2nosotros{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffff;
 }

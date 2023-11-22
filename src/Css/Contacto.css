@@ -160,6 +160,17 @@ a:visited {
 /* VERSION MOBILE  */
 
 @media (max-width: 830px) {
+
+    #contacto-sect1 h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    #contacto-sect1 h2 {
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
     #contacto .contacto-fomr{
         flex-direction: column;
         justify-content: center;
@@ -173,5 +184,11 @@ a:visited {
     }
     .what {
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    #contacto #contacto-sect1 {
+        height: 200px;
     }
 }

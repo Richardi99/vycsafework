@@ -1,11 +1,12 @@
+import { Brochure } from '../Component/Brochure'
 import '../Css/Nosotros.css'
 
 export const Nosotros = () => {
     return (
         <div id="nosotros">
             <section id="nosotros-sect1">
-                <h1>Nosotros</h1>
-                <h2>Trabajamos para hacerte la vida mas segura</h2>
+                <h1 className='h1nosotros'>Nosotros</h1>
+                <h2 className='h2nosotros'>Trabajamos para hacerte la vida mas segura</h2>
             </section>
             <section id='somos'>
                 <div className="somos-container">
@@ -69,6 +70,9 @@ export const Nosotros = () => {
                         </p>
                 </div>
             </section>
+
+            <Brochure/>
+
         </div>
     )
 }
