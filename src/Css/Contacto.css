@@ -1,8 +1,10 @@
 :root {
     --fontMono: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --fontSerif :var(--fontSerif)
 }
 
 #contacto #contacto-sect1 {
+    
     margin-top: 65px;
     height: 300px;
     display: flex;
@@ -20,6 +22,7 @@
     padding-top: 50px;
     text-align: center;
     font-size: clamp(20px,5vw,40px);
+    font-family: sans-serif;
 }
 
 #contacto-sect1 h2 {

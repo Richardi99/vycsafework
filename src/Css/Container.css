@@ -45,6 +45,7 @@
 
 .sct1texto{
     top: 38%;
+    
     left: 36px;
     position: absolute;
     border-radius: 6px;
@@ -53,6 +54,7 @@
 .sct1texto p, h1 {
     color: #ffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
 }
 .sct1texto h1 {
@@ -67,6 +69,7 @@
 .btn-solicitar{
     font-size: clamp(15px,5vw,16px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     border: none;
     background-color: #DC5529;
     color: #ffff;
@@ -160,6 +163,7 @@
 }
 #sct2 .sect2-card div h4, p {
     font-family: var(--fontMono);
+    
 }
 #sct2 .sect2-card div h4 {
     font-size: clamp(16px, 6vw, 18px);
