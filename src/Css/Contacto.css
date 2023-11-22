@@ -13,13 +13,12 @@
     font-family: var(--fontMono);
     margin-bottom: 50px;
     background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/trigo.jpg);
-    
+    justify-content: center;
     background-size: cover;
 
 }
 
 #contacto-sect1 h1 {
-    padding-top: 50px;
     text-align: center;
     font-size: clamp(20px,5vw,40px);
     font-family: sans-serif;
