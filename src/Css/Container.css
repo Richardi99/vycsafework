@@ -194,7 +194,7 @@
     margin-top: 50px;
     height: auto;
     background-color: #00628B;     
-    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.png);
+    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.jpg);
     flex-direction: column;
     justify-content: center;
     background-size: cover;
