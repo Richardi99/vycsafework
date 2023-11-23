@@ -52,3 +52,44 @@
     padding: 7px 0;
     text-align: justify;
 }
+
+#otros-Servicios {
+    background-color: rgb(255, 123, 0);
+    background-image: linear-gradient(rgba(31, 7, 0, 0.60), rgba(31, 7, 0, 0.60)), url('../Img/condominios.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.galeria-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.galeria-img img {
+    justify-content: center;
+    max-height: 300PX;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#otros-Servicios h3 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-family: sans-serif;
+    color: #ffff;
+    border-bottom: 1px solid #ffffff75;
+    margin-bottom: 20px;
+    font-size: clamp(20px,5vw,30px);
+}
+ h2 {
+    display: flex;
+
+}
