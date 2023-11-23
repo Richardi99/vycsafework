@@ -43,7 +43,7 @@ header nav .link-mobile {
 
 header nav img {
     padding: 8px 0;
-    width: 100px;
+    width: 130px;
     height: auto;
 }
 
@@ -56,7 +56,9 @@ header nav ol a {
     font-size: clamp(14px,5vw,16px);
     padding: 5px 10px;
     margin-left: 2rem;
-    font-family: var(--font-Mono);
+    font-family: sans-serif;
+    transition: 0.1s ease;
+    
 }
 
 header nav ol a:hover {
@@ -66,9 +68,8 @@ header nav ol a:hover {
 
 
 .bar-contact {
-    padding-top: 70px;
+    padding-top: 80px;
     width: 100%;
-    top:60px;
     background-color: #FF6635;
     text-align: center;
     

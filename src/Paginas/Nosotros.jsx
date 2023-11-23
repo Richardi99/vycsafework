@@ -2,7 +2,7 @@ import { Brochure } from '../Component/Brochure'
 import '../Css/Nosotros.css'
 
 export const Nosotros = () => {
-    return (
+    return ( 
         <div id="nosotros">
             <section id="nosotros-sect1">
                 <h1 className='h1nosotros'>Nosotros</h1>
@@ -23,7 +23,7 @@ export const Nosotros = () => {
                             contamos con pedo, entrenado y calificado para prestar 
                             nuestros servicios de calidad. Además, ofrecemos asesoría y gestión en 
                             seguridad, auditorías de edificios. También proporcionamos consultoría
-                            en administración de edificios, construcción e inmobiliaria .
+                            en administración de edificios, construcción e inmobiliaria.
                             </p>
                     </div>
                 </div>

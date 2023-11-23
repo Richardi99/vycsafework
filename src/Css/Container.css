@@ -225,14 +225,20 @@
 }
 
 #sct3 h2{
+    font-size: clamp(20px,8vw,26px);
+    display: flex;
     padding: 20px;
     justify-content: center;
     color: #ffff;
 }
+
+#sct3 h2 span {
+    color: #F26E44;
+}
 #sct3 h3 {
     color: #ffff;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -242,7 +248,7 @@
     color: #ffff;
 }
 #sct3 h4 {
-    font-size: clamp(16px,5vw,18px);
+    font-size: clamp(16px,5vw,17px);
 }
 #sct3 .card {
     border-radius: 2px;
@@ -279,6 +285,8 @@
 
 #sct3 .card p {
     padding-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #sct3 .card h4 {

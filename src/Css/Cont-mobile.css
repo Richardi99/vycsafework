@@ -134,7 +134,7 @@
 
     .sct1texto p {
         margin-top: 20px;
-        color: #303030d3;
+        color: #555555;
         width: 100%;
         font-weight: 480;
         font-size: clamp(14px,5vw,15px);
