@@ -44,6 +44,104 @@ export const Servicio = () => {
             </section>
             <Sct3Servicios/>
 
+            <section id='servicios-card'>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Gasfitería</p>
+                    <p class="para">
+                    Contamos con expertos en gasfitería que se encargan de
+                    solucionar cualquier problema relacionado con las tuberías, grifos,
+                    sistemas de agua caliente, entre otros.
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Reparaciones</p>
+                    <p class="para">
+                    Realizamos todo tipo de reparaciones, desde pequeños
+                    arreglos hasta proyectos más complejos. Nuestro equipo está
+                    capacitado para abordar cualquier inconveniente que pueda surgir en
+                    su propiedad.
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Mantenimiento de granito</p>
+                    <p class="para">
+                    Ofrecemos servicios de mantenimiento
+                    especializados para superficies de granito, incluyendo pulido, sellado y
+                    restauración para asegurar su durabilidad y aspecto impecable.
+
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Limpieza y mantenimiento</p>
+                    <p class="para">
+                    Conjunto de intervenciones periódicas y
+                    soluciones destinadas a mantener unas instalaciones en perfectas
+                    condiciones de higiene a lo largo del tiempo.
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Mantenimiento sanitario y eléctrico</p>
+                    <p class="para">
+                    Brindamos servicios de
+                    mantenimiento preventivo y correctivo para sistemas sanitarios y
+                    eléctricos, garantizando su funcionamiento óptimo y seguro.
+
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Instalación de Kit de cámaras de seguridad y CCTV</p>
+                    <p class="para">
+                    Contamos con
+                    expertos en seguridad que pueden instalar y configurar sistemas de
+                    cámaras de seguridad y circuito cerrado de televisión (CCTV) para
+                    proteger lo que más te importa.
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Trabajos de Drywall</p>
+                    <p class="para">
+                    Realizamos trabajos de construcción en seco,
+                    como instalación de paredes, divisiones y cielos rasos, ofreciendo
+                    soluciones prácticas y estéticas
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+            <div class="sct-card">
+                <div class="content">
+                    <p class="heading">Enchape y otros</p>
+                    <p class="para">
+                    También realizamos servicios de enchape de paredes
+                    y pisos, así como otros servicios generales según sus necesidades
+                    específicas.
+                    </p>
+                    <button class="btn">Más info</button>
+                </div>
+             </div>
+               
+
+
+            </section>
+
             <section id='otros-Servicios'>
                 <h3>Comprometidos con el trabajo</h3>
                 <div className="galeria-img">
