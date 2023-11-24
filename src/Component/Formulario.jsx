@@ -21,7 +21,7 @@ export const Formulario = ({ mostrarTitulo }) => {
             <div className="formulario">
                 <div className="cont-cuadro">
                     <h5>Contáctanos</h5>
-                    <p>Tenemos un asesor disponible para atenderte con gusto</p>
+                    <p>Tenemos un asesor disponible para atenderte con gusto.</p>
                 </div>
                 <form ref={form} onSubmit={sendEmail} className="form" action='post'>
                     <h5>Enviamos un mensaje</h5>

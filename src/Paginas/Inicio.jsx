@@ -108,7 +108,7 @@ export function Inicio () {
                            <div className="p-content">
                             <p>
                             Ofrecemos una amplia gama de servicios generales para 
-                            satisfacer todas sus necesidades de mantenimiento y reparación
+                            satisfacer todas sus necesidades de mantenimiento y reparación.
                             </p>
                            </div>
                         <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>

@@ -25,7 +25,7 @@ export const Contacto = () => {
                     </div>
 
                     <div className="datos2">
-                        <h4>V&Csafework</h4>
+                        <h4>V&C SAFE WORK</h4>
                         <p>Ca. Eduardo López Romana 3801</p>
                         <p>San Martín de Porres 15202</p>
                     </div>

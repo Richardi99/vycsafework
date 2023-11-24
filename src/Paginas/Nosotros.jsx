@@ -13,7 +13,7 @@ export const Nosotros = () => {
                     <div className="imagen"></div>
 
                     <div className="somos-texto">
-                        <h3>Somos <strong>V&Csafework</strong></h3>
+                        <h3>Somos <strong>V&C SAFE WORK</strong></h3>
                         <h4>Administración de Edificios y Seguridad</h4>
                             <p>
                             Somos una empresa peruana especializada en la administración integral de 
@@ -32,7 +32,7 @@ export const Nosotros = () => {
             <section id='valorSocial'>
                 <div className="card1">
                     <h4 className='fraseSocial'>CALIDAD Y CONTINUO VALOR SOCIAL</h4>
-                    <p>Buscamos dar siempre el mejor servicio a nuestros clientes</p>
+                    <p>Buscamos dar siempre el mejor servicio a nuestros clientes.</p>
                 </div>
 
                 <div className="card2">
