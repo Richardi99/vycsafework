@@ -21,11 +21,13 @@
     }
     #sct1 .sct1texto {
         left: 15px;
-        top: 300px;
-        width: 90%
+        top: 250px;
+        width: 90%;
+        margin-top: 20px;
     }
     .sct1texto h1 {
         font-size: clamp(18px,8vw,30px);
+        margin-bottom: 10px;
         
     }
     .container-img::after {
@@ -117,7 +119,7 @@
 
 @media (max-width: 500px) {
     #sct1 img {
-        height: 190px;
+        height: 390px;
     }
 
 
@@ -125,11 +127,13 @@
         display: flex;
         flex-direction: column;
         left: 15px;
-        top: 225px;
+        top: 350px;
+        margin-top: 30px;
         align-items: center;
     }
     .sct1texto h1 {
-        font-size: clamp(16px,8vw,24px);
+        font-size: clamp(30px,8vw,35px);
+        margin-bottom: 20px;
     }
 
     .sct1texto p {
@@ -138,6 +142,7 @@
         width: 100%;
         font-weight: 480;
         font-size: clamp(14px,5vw,15px);
+        text-align: justify;
     }
 
     .btn-solicitar {
@@ -285,9 +290,9 @@
 
 /* ------------------------------------------------------- */
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
     #sct1 img {
-        height: 180px;
+        height: 290px;
     }
     #inicio h2 {
         margin-top: 0;
@@ -295,7 +300,22 @@
         font-size: clamp(15px,8vw,20px);
     }
     #sct1 .sct1texto {
-        top: 215px;
+        margin-top: 55px;
+        top: 225px;
+    }
+}
+@media (max-width: 320px) {
+    #sct1 img {
+        height: 280px;
+    }
+    #inicio h2 {
+        margin-top: 20px;
+        display: inline-block;
+        font-size: clamp(15px,8vw,20px);
+    }
+    #sct1 .sct1texto {
+        margin-top: 50px;
+        top: 205px;
     }
 }
 

@@ -20,15 +20,39 @@ import lgCondBlue from '../Img/icCodBlue.png'
 import lgPolBlue from '../Img/icPolBlue.png'
 import lgCleanBlue from '../Img/icCleanBlue.png'
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef,useEffect } from "react";
 import emailjs from '@emailjs/browser'
 import { Formulario } from '../Component/Formulario'
 import { Comunicate } from '../Component/comunicate'
 import { Brochure } from '../Component/Brochure'
 import { Sct3Servicios } from '../Component/Sct3Servicios'
+import nosotrosPortada from '../Img/somosNosotros.jpg';
 
 
 export function Inicio () {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [imageToShow, setImageToShow] = useState(window.innerWidth <= 500 ? nosotrosPortada : imagen1);
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+      if (window.innerWidth <= 500) {
+        setImageToShow(nosotrosPortada);
+      } else {
+        setImageToShow(imagen1);
+      }
+    };
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
+
+
 
     const [hoveredCards, setHoveredCards] = useState({
         condCard: false,
@@ -36,6 +60,7 @@ export function Inicio () {
         cleanCard: false
     } 
     );
+    
 
     const handleMouseEnter = (card) => {
         setHoveredCards(prevState => ({ ...prevState, [card]: true }));
@@ -76,7 +101,7 @@ export function Inicio () {
             <div id="inicio">
                 <section id="sct1">
                     <div className='container-img'>
-                        <img src= {imagen1} alt="IMAGEN1" />
+                        <img src= {imageToShow} alt="IMAGEN1" />
                     </div>
                     <div className="sct1texto">
                         <h1>Administración de Edificios y Seguridad</h1>
