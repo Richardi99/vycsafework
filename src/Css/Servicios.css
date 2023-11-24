@@ -48,7 +48,7 @@
 
 .servicio-container .servicio-texto p{
     color: #555555;
-    font-size: 14px;
+    font-size: 16px;
     padding: 7px 0;
     text-align: justify;
 }
@@ -160,7 +160,7 @@
     height: 5px;
     background: linear-gradient(-45deg, #f38907 0%, #d7310c 100% );
     z-index: -1;
-    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.3s ;
   }
   
   .sct-card:hover::before {
@@ -199,16 +199,11 @@
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 0;
-    animation: animate 20s infinite;
+    animation: animate 30s infinite;
 
   }
-  .slider p{
-    #margin_estofdot: 40px;
-  }
-
+  
   #otrosServicios {
-
-    background-color: red;
     display: flex;
     flex-direction: row;
     margin: 20px auto;
@@ -277,6 +272,73 @@
       background-image: url(../Img/IMG11.jpg);
       background-size: cover;
     }
+  }
+
+
+
+  @media (max-width: 820px) {
+    #servicios-card {
+      flex-direction: column;
+      padding: 0;
+      margin: 0 8px;
+      box-sizing: border-box;
+    }
+    .sct-card {
+      box-sizing: border-box;
+      width: calc(100% - 20px);
+      border-radius: 20px 0 20px 0;
+    }
+
+    .sct-card:hover  {
+      border-radius: 0 50px 0 20px;
+      background: linear-gradient(-270deg, #db7e0c 0%, #ff910a 100% );
+      transform: scale(1.03);
+    }
+    .sct-card:hover::before {
+      background: linear-gradient(-270deg, #db7e0c 0%, #ff910a 100% );
+    }
+
+    /* ---------------------------------- */
+
+    #otrosServicios{
+      flex-direction: column;
+      margin: 0;
+      box-sizing: border-box;
+      padding: 0;
+    }
+    
+    .slider {
+      box-sizing: border-box;
+      min-width: 300px;
+      max-width: 320px;
+      margin: 0;
+      padding: 0;
+      width: calc(100% - 40px);
+      margin-bottom: 10px;
+    }
+    
+    #otrosServicios p {
+      box-sizing: border-box;
+      width: 86%;
+      margin:20px;
+      font-size: 16px;
+    }
+    #servicios-sct1 h1 {
+      font-size: clamp(30px,5vw,40px);
+    }
+    .otrosServiciosTexto {
+      padding-bottom: 0;
+    }
+
+    #sct6 {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #contacto #contacto-sect1 {
+      height: auto;
+    }
+
   }
 
 

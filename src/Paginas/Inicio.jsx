@@ -115,9 +115,8 @@ export function Inicio () {
                             <img 
                                 src= {hoveredCards.polCard ? lgPolBlue : lgPolOrange} alt="icono2" 
                             />
-                            <h4>Segurdad Privada</h4>
-                            <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
-                                seguridad y rentabilidad</p>
+                            <h4>Seguridad Privada</h4>
+                            <p>Protegiendo espacios y personas con profesionalismo y dedicación. Ofrecemos soluciones integrales en seguridad para tranquilidad absoluta.</p>
                         </div>
                         <div 
                             className="card" 
@@ -128,8 +127,7 @@ export function Inicio () {
                                 src= {hoveredCards.cleanCard ? lgCleanBlue : lgCleanOrange} alt="icono3" 
                             />
                             <h4>Limpieza y mantenimiento</h4>
-                            <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
-                                seguridad y rentabilidad</p>
+                            <p>Mantenemos espacios impecables y funcionales. Nuestro compromiso es la excelencia en limpieza y cuidado para ambientes que inspiran confianza y comodidad.</p>
                         </div>
 
                     </div>
