@@ -16,6 +16,22 @@ import { Formulario } from '../Component/Formulario'
 import { Brochure } from '../Component/Brochure'
 
 export const Servicio = () => {
+
+
+    const handleMouseEnter = (card) => {
+        setHoveredCards(prevState => ({ ...prevState, [card]: true }));
+    };
+    
+    const handleMouseLeave = (card) => {
+        setHoveredCards(prevState => ({ ...prevState, [card]: false }));
+    };   
+    const handleScrollToSection = () => {
+        const section5 = document.getElementById('sct5');
+        if (section5) {
+          section5.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <div id="servicios">
             <section id="servicios-sct1" >
@@ -44,120 +60,113 @@ export const Servicio = () => {
             </section>
             <Sct3Servicios/>
 
-            <h3 className='otrosServicios'>Otro Servicios</h3>
+            <h3 className='otrosServiciosTexto'>Otros Servicios generales</h3>
 
             <section id='servicios-card'>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Gasfitería</p>
-                    <p class="para">
-                    Contamos con expertos en gasfitería que se encargan de
-                    solucionar cualquier problema relacionado con las tuberías, grifos,
-                    sistemas de agua caliente, entre otros.
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Gasfitería</p>
+                        <p class="para">
+                        Contamos con expertos en gasfitería que se encargan de
+                        solucionar cualquier problema relacionado con las tuberías, grifos,
+                        sistemas de agua caliente, entre otros.
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Reparaciones</p>
-                    <p class="para">
-                    Realizamos todo tipo de reparaciones, desde pequeños
-                    arreglos hasta proyectos más complejos. Nuestro equipo está
-                    capacitado para abordar cualquier inconveniente que pueda surgir en
-                    su propiedad.
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Reparaciones</p>
+                        <p class="para">
+                        Realizamos todo tipo de reparaciones, desde pequeños
+                        arreglos hasta proyectos más complejos. Nuestro equipo está
+                        capacitado para abordar cualquier inconveniente que pueda surgir en
+                        su propiedad.
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Mantenimiento de granito</p>
-                    <p class="para">
-                    Ofrecemos servicios de mantenimiento
-                    especializados para superficies de granito, incluyendo pulido, sellado y
-                    restauración para asegurar su durabilidad y aspecto impecable.
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Mantenimiento de granito</p>
+                        <p class="para">
+                        Ofrecemos servicios de mantenimiento
+                        especializados para superficies de granito, incluyendo pulido, sellado y
+                        restauración para asegurar su durabilidad y aspecto impecable.
 
-                    </p>
-                    <button class="btn">Más info</button>
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Limpieza y mantenimiento</p>
-                    <p class="para">
-                    Conjunto de intervenciones periódicas y
-                    soluciones destinadas a mantener unas instalaciones en perfectas
-                    condiciones de higiene a lo largo del tiempo.
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Limpieza y mantenimiento</p>
+                        <p class="para">
+                        Conjunto de intervenciones periódicas y
+                        soluciones destinadas a mantener unas instalaciones en perfectas
+                        condiciones de higiene a lo largo del tiempo.
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Mantenimiento sanitario y eléctrico</p>
-                    <p class="para">
-                    Brindamos servicios de
-                    mantenimiento preventivo y correctivo para sistemas sanitarios y
-                    eléctricos, garantizando su funcionamiento óptimo y seguro.
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Mantenimiento sanitario y eléctrico</p>
+                        <p class="para">
+                        Brindamos servicios de
+                        mantenimiento preventivo y correctivo para sistemas sanitarios y
+                        eléctricos, garantizando su funcionamiento óptimo y seguro.
 
-                    </p>
-                    <button class="btn">Más info</button>
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Instalación de Kit de cámaras de seguridad y CCTV</p>
-                    <p class="para">
-                    Contamos con
-                    expertos en seguridad que pueden instalar y configurar sistemas de
-                    cámaras de seguridad y circuito cerrado de televisión (CCTV) para
-                    proteger lo que más te importa.
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Instalación de Kit de cámaras de seguridad y CCTV</p>
+                        <p class="para">
+                        Contamos con
+                        expertos en seguridad que pueden instalar y configurar sistemas de
+                        cámaras de seguridad y circuito cerrado de televisión (CCTV) para
+                        proteger lo que más te importa.
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Trabajos de Drywall</p>
-                    <p class="para">
-                    Realizamos trabajos de construcción en seco,
-                    como instalación de paredes, divisiones y cielos rasos, ofreciendo
-                    soluciones prácticas y estéticas
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Trabajos de Drywall</p>
+                        <p class="para">
+                        Realizamos trabajos de construcción en seco,
+                        como instalación de paredes, divisiones y cielos rasos, ofreciendo
+                        soluciones prácticas y estéticas
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-            <div class="sct-card">
-                <div class="content">
-                    <p class="heading">Enchape y otros</p>
-                    <p class="para">
-                    También realizamos servicios de enchape de paredes
-                    y pisos, así como otros servicios generales según sus necesidades
-                    específicas.
-                    </p>
-                    <button class="btn">Más info</button>
+                <div class="sct-card">
+                    <div class="content">
+                        <p class="heading">Enchape y otros</p>
+                        <p class="para">
+                        También realizamos servicios de enchape de paredes
+                        y pisos, así como otros servicios generales según sus necesidades
+                        específicas.
+                        </p>
+                        <button  onClick={handleScrollToSection} className='btn-solicitar'>Más info</button>
+                    </div>
                 </div>
-             </div>
-               
-
 
             </section>
 
-            <section id='otros-Servicios'>
-                <h3>Comprometidos con el trabajo</h3>
-                <div className="galeria-img">
-                    <img src= {IMG10} alt="IMG" />
-                    <img src= {IMG1} alt="IMG" />
-                    <img src= {IMG2} alt="IMG" />
-                    <img src= {IMG3} alt="IMG" />
-                    <img src= {IMG4} alt="IMG" />
-                    <img src= {IMG5} alt="IMG" />
-                    <img src= {IMG6} alt="IMG" />
-                    <img src= {IMG7} alt="IMG" />
-                    <img src= {IMG9} alt="IMG" />
-                    <img src= {IMG11} alt="IMG" />
-                    
+                <h3 className='otrosServiciosTexto'>Comprometidos con el trabajo</h3>
+            <section id='otrosServicios'>
+                <p>Desde la implementación de soluciones tecnológicas innovadoras hasta la prestación de servicios
+                     personalizados, nuestra gama de ofertas está diseñada para
+                      ofrecer resultados sobresalientes. Cada proyecto es abordado 
+                      con una combinación única de habilidades, creatividad y 
+                      conocimientos especializados, asegurando así que cada cliente
+                       reciba una solución que se adapte perfectamente a sus requisitos.</p>
+                <div className="slider position">
                 </div>
             </section>
 

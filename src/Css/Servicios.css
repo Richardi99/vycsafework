@@ -99,6 +99,7 @@
     padding: 10px;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0 30px;
 }
 .sct-card {
     background: #00618bda;
@@ -185,3 +186,98 @@
     box-shadow: none;
   }
   
+
+ 
+
+  .slider {
+    background-position: center;
+    background-image: url(../Img/IMG1.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 0;
+    animation: animate 20s infinite;
+
+  }
+  .slider p{
+    #margin_estofdot: 40px;
+  }
+
+  #otrosServicios {
+
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .otrosServiciosTexto {
+    color:#f38907;
+    font-family: var(--fontMono);
+    margin: 0 auto;
+    text-align: center;
+    font-size: clamp(25px, 5vw, 30px);
+    margin: 30px auto;
+    padding-bottom: 20px;
+  }
+
+  #otrosServicios p {
+    color: #303030;
+    width: 45%;
+    text-align: justify;
+
+  }
+
+  .sct-card {
+    background-color: #00628B;
+  }
+
+  @keyframes animate {
+    0% {
+      background-image: url(../Img/IMG1.jpg);
+      background-size: cover;
+    }
+    10% {
+      background-image: url(../Img/IMG2.jpg);
+      background-size: cover;
+    }
+    20% {
+      background-image: url(../Img/IMG3.jpg);
+      background-size: cover;
+    }
+    30% {
+      background-image: url(../Img/IMG4.jpg);
+      background-size: cover;
+    }
+    40% {
+      background-image: url(../Img/IMG5.jpg);
+      background-size: cover;
+    }
+    50% {
+      background-image: url(../Img/IMG6.jpg);
+      background-size: cover;
+    }
+    60% {
+      background-image: url(../Img/IMG7.jpg);
+      background-size: cover;
+    }
+    70% {
+      background-image: url(../Img/IMG8.jpg);
+      background-size: cover;
+    }
+    80% {
+      background-image: url(../Img/IMG9.jpg);
+      background-size: cover;
+    }
+    90% {
+      background-image: url(../Img/IMG11.jpg);
+      background-size: cover;
+    }
+  }
+
+
+
