@@ -44,6 +44,8 @@ export const Servicio = () => {
             </section>
             <Sct3Servicios/>
 
+            <h3 className='otrosServicios'>Otro Servicios</h3>
+
             <section id='servicios-card'>
             <div class="sct-card">
                 <div class="content">

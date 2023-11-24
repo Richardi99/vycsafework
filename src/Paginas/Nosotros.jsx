@@ -18,9 +18,9 @@ export const Nosotros = () => {
                             <p>
                             Somos una empresa peruana especializada en la administración integral de 
                             edificios, condominios y vigilancia preventiva. Para brindar servicios de
-                            conserjes, porteros, recepcionistas, controladores , auxiliares de 
+                            conserjes, porteros, recepcionistas, controladores, auxiliares de 
                             limpieza, vigilancia, resguardo policial y protección personal; 
-                            contamos con pedo, entrenado y calificado para prestar 
+                            contamos con personal entrenado y calificado para prestar 
                             nuestros servicios de calidad. Además, ofrecemos asesoría y gestión en 
                             seguridad, auditorías de edificios. También proporcionamos consultoría
                             en administración de edificios, construcción e inmobiliaria.
@@ -51,7 +51,8 @@ export const Nosotros = () => {
                         <p>
                            <li>Transparencia</li>
                            <li>Honestidad</li>
-                           <li>LibertadCoherencia como valor empresarial</li>
+                           <li>Libertad</li>
+                           <li>Coherencia como valor empresarial</li>
                            <li>Puntualidad en los procesos</li>
                            <li>Excelencia</li>
                            <li>Adaptabilidad</li>
