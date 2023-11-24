@@ -130,7 +130,7 @@ export function Inicio () {
                             />
                             <h4>Administración de Edificios</h4>
                             <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
-                                seguridad y rentabilidad</p>
+                                seguridad y rentabilidad.</p>
                         </div>
                         <div 
                             className="card" 
@@ -173,7 +173,7 @@ export function Inicio () {
                                     posibles problemas y tomamos medidas preventivas. Nuestros informes proporcionan
                                     una visión precisa de cualquier deficiencia, permitiéndote tomar acciones correctivas
                                     para mejorar tu entorno residencial. Tu tranquilidad es nuestra máxima prioridad.
-                                .</p>
+                                </p>
                                 <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                         </div>
                         <div className="card">
@@ -181,7 +181,7 @@ export function Inicio () {
                                 <p>Supervisamos al personal para optimizar su rendimiento y gestionamos estados de cuenta
                                     con precisión financiera y transparencia. Estos procesos son esenciales para mantener
                                     la eficiencia operativa e integridad financiera en el entorno empresarial actual.
-                                .</p>
+                                </p>
                                 <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>
                         </div>
                         <div className="card">

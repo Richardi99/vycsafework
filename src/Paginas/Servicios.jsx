@@ -164,7 +164,7 @@ export const Servicio = () => {
                      personalizados, nuestra gama de ofertas está diseñada para
                       ofrecer resultados sobresalientes. Cada proyecto es abordado 
                       con una combinación única de habilidades, creatividad y 
-                      conocimientos especializados, asegurando así que cada cliente
+                      conocimientos especializados, asegurando que cada cliente
                        reciba una solución que se adapte perfectamente a sus requisitos.</p>
                 <div className="slider position">
                 </div>

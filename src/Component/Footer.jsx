@@ -38,11 +38,16 @@ export const Footer = () => {
                 </div>
 
                 <div className="footer-col">
-                    <h3>OTROS SERVICIOS</h3>
+                    <h3>SERVICIOS GENERALES</h3>
                     <ul>
-                        <li>Conserjeria</li>
-                        <li>Porteria</li>
+                        <li>Conserjería</li>
+                        <li>Portería</li>
                         <li>Recepcionistas</li>
+                        <li>Auxliar de Limpieza</li>
+                        <li>Vigilancia Preventiva</li>
+                        <li>Preventor de Pérdidas</li>
+                        <li>Resguardo Policial</li>
+                        <li>Escolta Personal</li>
                         {/* Otros servicios */}
                     </ul>
                 </div>

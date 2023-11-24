@@ -67,7 +67,7 @@ export const Nosotros = () => {
                             clientes, brindándoles nuestros servicios personalizados, empleando soluciones integrales
                             con implementación de tecnología innovadora, adaptándonos a las necesidades y exigencias
                             requeridas. Logrando así, generar tranquilidad y confianza con el cuidado de sus 
-                            empresas
+                            empresas.
                         </p>
                 </div>
             </section>

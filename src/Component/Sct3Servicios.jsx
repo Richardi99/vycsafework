@@ -21,13 +21,13 @@ export const Sct3Servicios = () => {
                         <div className="sct3-admin">
                                 <div className="card">
                                     <img src= {icConserjeria} alt="IMAGEN" />
-                                    <h4>Consejeria</h4>
+                                    <h4>Consejería</h4>
                                     <p>Servicio integral de atención y cuidado para la comunidad.
                                     </p>
                                 </div>
                                 <div className="card">
                                     <img src= {icPorteria} alt="IMAGEN" />
-                                    <h4>Porteria</h4>
+                                    <h4>Portería</h4>
                                     <p> Control y gestión eficiente de accesos y salidas.
                                     </p>
                                 </div>
