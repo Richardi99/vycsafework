@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
 
 export const Formulario = ({ mostrarTitulo }) => {
     const form = useRef();
@@ -7,10 +7,22 @@ export const Formulario = ({ mostrarTitulo }) => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ony031l', 'template_gn90oix', form.current, 'gyTb0ybqHn8ZFNqeW')
+        emailjs.sendForm('service_srw8qqf', 'template_jeercv5', form.current, 'gyTb0ybqHn8ZFNqeW')
             .then((result) => {
                 console.log(result.text);
-            }, (error) => {
+                // Limpiar el formulario después de enviar con éxito
+                form.current.reset();
+                // Mostrar un mensaje de enviado correctamente
+                const successMessage = document.createElement('p');
+                successMessage.textContent = '¡Mensaje enviado correctamente!';
+                successMessage.classList.add('success-message');
+                form.current.parentNode.appendChild(successMessage);
+                // Eliminar el mensaje después de unos segundos
+                setTimeout(() => {
+                    successMessage.remove();
+                }, 5000); // Elimina el mensaje después de 5 segundos
+            })
+            .catch((error) => {
                 console.log(error.text);
             });
     };
@@ -43,5 +55,5 @@ export const Formulario = ({ mostrarTitulo }) => {
                 </form>
             </div>
         </section>
-    )
-}
+    );
+};

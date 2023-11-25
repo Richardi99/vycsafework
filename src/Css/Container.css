@@ -326,7 +326,7 @@ h2{
     background-color: #001c27ad;
     height: 100%;
     display: flex;
-
+    overflow: visible;
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
@@ -344,6 +344,7 @@ h2{
     color: #ffff;
     display: flex;
     flex-direction: column;
+    
     justify-content: space-b;
     background-image: linear-gradient(to left, rgba(15, 44, 69, 0.367),rgba(107, 64, 23, 0.186))
 }

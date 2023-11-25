@@ -140,7 +140,7 @@ export function Inicio () {
                             <img 
                                 src= {hoveredCards.polCard ? lgPolBlue : lgPolOrange} alt="icono2" 
                             />
-                            <h4>Seguridad Privada</h4>
+                            <h4>Seguridad</h4>
                             <p>Protegiendo espacios y personas con profesionalismo y dedicación. Ofrecemos soluciones integrales en seguridad para tranquilidad absoluta.</p>
                         </div>
                         <div 

@@ -19,11 +19,12 @@ export const Footer = () => {
                 <div className="footer-col">
                     <h3>LA EMPRESA</h3>
                     <p>
-                        Somos una empresa especializada en la gestión integral de 
-                        edificios y condominios, ofreciendo servicios expertos en 
-                        seguridad, conserjería, limpieza y consultoría inmobiliaria. 
-                        Nuestro personal altamente capacitado garantiza calidad en 
-                        cada tarea, transformando y optimizando tus espacios. 
+                    En nuestra empresa, ofrecemos una amplia gama de
+                    servicios generales para satisfacer todas sus
+                    necesidades de mantenimiento y reparación. Nuestro
+                    equipo de profesionales altamente capacitados y
+                    experimentados se encarga de brindar soluciones
+                    eficientes y de calidad.
                     </p>
                 </div>
 
@@ -40,14 +41,14 @@ export const Footer = () => {
                 <div className="footer-col">
                     <h3>SERVICIOS GENERALES</h3>
                     <ul>
-                        <li>Conserjería</li>
-                        <li>Portería</li>
-                        <li>Recepcionistas</li>
-                        <li>Auxliar de Limpieza</li>
-                        <li>Vigilancia Preventiva</li>
-                        <li>Preventor de Pérdidas</li>
-                        <li>Resguardo Policial</li>
-                        <li>Escolta Personal</li>
+                        <li>Gasfiteria</li>
+                        <li>Reparaciones</li>
+                        <li>Mantenimineto de granito</li>
+                        <li>Limpieza y mantenimiento</li>
+                        <li>VMantenimiento sanitario y eléctrico</li>
+                        <li>Instalación de Kit de cámaras de seguridad y CCTV</li>
+                        <li>Trabajos de Drywall</li>
+                        <li>Enchape y otros</li>
                         {/* Otros servicios */}
                     </ul>
                 </div>
