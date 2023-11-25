@@ -1,8 +1,24 @@
-# React + Vite
+# V&Csafework
+Administración de Edificios y Seguridad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Ofrecemos una amplia gama de servicios generales para satisfacer todas sus necesidades de mantenimiento y reparación.
+## Características
 
-Currently, two official plugins are available:
+Los mejores en Administración de
+Edificios y seguridad
+1. Administración de Edificios
+2. Seguridad.
+3. Limpieza y mantenimiento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Uso
+
+# Nuestras  Soluciones
+
+Asesoria, consultoria para revisión general
+Velamos y garantizamos tu seguridad y bienestar al examinar minuciosamente la infraestructura, sistemas y administración de tu propiedad. Identificamos posibles problemas y tomamos medidas preventivas. Nuestros informes proporcionan una visión precisa de cualquier deficiencia, permitiéndote tomar acciones correctivas para mejorar tu entorno residencial. Tu tranquilidad es nuestra máxima prioridad.
+
+
+Supervisión de personal y Estados de cuenta
+Supervisamos al personal para optimizar su rendimiento y gestionamos estados de cuenta con precisión financiera y transparencia. Estos procesos son esenciales para mantener la eficiencia operativa e integridad financiera en el entorno empresarial actual.
