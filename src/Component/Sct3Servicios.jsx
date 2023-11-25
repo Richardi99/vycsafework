@@ -39,7 +39,7 @@ export const Sct3Servicios = () => {
                                 </div>
                                 <div className="card">
                                     <img src= {icAuxL} alt="IMAGEN" />
-                                    <h4>Auxliar de Limpieza</h4>
+                                    <h4>Auxiliar de Limpieza</h4>
                                     <p>Mantenimiento impecable y cuidado de espacios.
                                     </p>
                                 </div>
