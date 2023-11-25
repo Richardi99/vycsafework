@@ -1,5 +1,5 @@
 import icPdf from '../Img/icons/ic-pdf.png'
-import brochure from '../Fies/BROCHURE V&C SAFE WORK S.A.C.-2.pdf'
+import brochure from '../Fies/BROCHURE ACTUALIZADO.pdf'
 
 export const Brochure = () => {
     return (
