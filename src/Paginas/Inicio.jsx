@@ -1,4 +1,6 @@
-import imagen1 from '../Img/bgPrincipal.png'
+import imagen1 from '../Img/bgPrincipal.jpg'
+import nosotrosPortada from '../Img/somosNosotros.jpg';
+
 import icConserjeria from '../Img/icons/ic-conserje.png'
 import icPorteria from '../Img/icons/ic-portero.png'
 import icRecep from '../Img/icons/ic-recep.png'
@@ -26,7 +28,6 @@ import { Formulario } from '../Component/Formulario'
 import { Comunicate } from '../Component/comunicate'
 import { Brochure } from '../Component/Brochure'
 import { Sct3Servicios } from '../Component/Sct3Servicios'
-import nosotrosPortada from '../Img/somosNosotros.jpg';
 
 
 export function Inicio () {

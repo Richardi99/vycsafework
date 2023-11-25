@@ -45,7 +45,7 @@ export const Footer = () => {
                         <li>Reparaciones</li>
                         <li>Mantenimineto de granito</li>
                         <li>Limpieza y mantenimiento</li>
-                        <li>VMantenimiento sanitario y eléctrico</li>
+                        <li>Mantenimiento sanitario y eléctrico</li>
                         <li>Instalación de Kit de cámaras de seguridad y CCTV</li>
                         <li>Trabajos de Drywall</li>
                         <li>Enchape y otros</li>
