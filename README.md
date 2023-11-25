@@ -1,9 +1,9 @@
 # V&Csafework
 Administración de Edificios y Seguridad
 
-## Descripción
-Ofrecemos una amplia gama de servicios generales para satisfacer todas sus necesidades de mantenimiento y reparación.
-## Características
+## Administración de Edificios y Seguridad
+## Ofrecemos una amplia gama de servicios generales para satisfacer todas sus necesidades de mantenimiento y reparación.
+
 
 Los mejores en Administración de
 Edificios y seguridad
@@ -12,9 +12,9 @@ Edificios y seguridad
 3. Limpieza y mantenimiento
 
 
-# Uso
+## Uso
 
-# Nuestras  Soluciones
+## Nuestras  Soluciones
 
 Asesoria, consultoria para revisión general
 Velamos y garantizamos tu seguridad y bienestar al examinar minuciosamente la infraestructura, sistemas y administración de tu propiedad. Identificamos posibles problemas y tomamos medidas preventivas. Nuestros informes proporcionan una visión precisa de cualquier deficiencia, permitiéndote tomar acciones correctivas para mejorar tu entorno residencial. Tu tranquilidad es nuestra máxima prioridad.
