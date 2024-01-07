@@ -49,14 +49,14 @@ export const Nosotros = () => {
                 <div className="card4">
                     <h4>Valores</h4>
                         <p>
-                           <li>Transparencia</li>
                            <li>Honestidad</li>
-                           <li>Libertad</li>
-                           <li>Coherencia como valor empresarial</li>
-                           <li>Puntualidad en los procesos</li>
-                           <li>Excelencia</li>
-                           <li>Adaptabilidad</li>
+                           <li>Integridad</li>
+                           <li>Confidencialidad</li>
+                           <li>Sentido de pertenencia</li>
+                           <li>Lealtad</li>
                            <li>Diligencia</li>
+                           <li>Transaparencia</li>
+                           <li>Equidad</li>
                         </p>
                 </div>
 

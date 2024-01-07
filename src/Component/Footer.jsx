@@ -41,7 +41,7 @@ export const Footer = () => {
                 <div className="footer-col">
                     <h3>SERVICIOS GENERALES</h3>
                     <ul>
-                        <li>Gasfiteria</li>
+                        <li>Gasfitería</li>
                         <li>Reparaciones</li>
                         <li>Mantenimineto de granito</li>
                         <li>Limpieza y mantenimiento</li>

@@ -21,7 +21,7 @@ export const Sct3Servicios = () => {
                         <div className="sct3-admin">
                                 <div className="card">
                                     <img src= {icConserjeria} alt="IMAGEN" />
-                                    <h4>Consejería</h4>
+                                    <h4>Conserjería</h4>
                                     <p>Servicio integral de atención y cuidado para la comunidad.
                                     </p>
                                 </div>

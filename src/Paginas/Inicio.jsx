@@ -118,7 +118,7 @@ export function Inicio () {
 
                 <section id="sct2">
                     <h2 className='column'>Los mejores en Administración de 
-                        <span> Edificios y seguridad</span>
+                        <span> Edificios y Seguridad</span>
                     </h2>
                     <div className="sect2-card">
                         <div 
