@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+}
+
+#root {
+    --font-Mono: "Leelawadee UI";
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    /* display: none; */
+    background-color: #1C1E21;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav {
+    margin: 0 80px;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-burger {
+    display: none;
+}
+
+header nav .link-mobile {
+    display: none;
+}
+
+header nav img {
+    padding: 10px 0;
+    width: 140px;
+    height: auto;
+}
+
+header nav ol {
+    display: flex;
+}
+header nav ol a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 5px 10px;
+    margin-left: 2rem;
+    font-family: var(--font-Mono);
+}
+
+header nav ol a:hover {
+    color: #FF6635;
+    font-weight: 500;
+}
+
+.bar-contact {
+    padding-top: 90px;
+    width: 100%;
+    top:90px;
+    background-color: #FF6635;
+    text-align: center;
+    
+}
+.bar-contact h3 {
+    font-size: 14px;
+    padding: 4px;
+    align-items: center;
+    color: #ffff;
+    font-family: var(--font-Mono);
+    transition: margin-left 0.3s ease;
+}
+
+/* VERSION TABLET (790PX)  ***************** */
+
+    @media(max-width:790px) {
+        body {
+            background-color: red;
+        }
+
+        header nav {
+            /* background-color: #FF6635; */
+            margin: 0 25px;
+        }
+
+        .bar-contact {
+            padding-top: 80px;
+        }
+
+        .menu-burger {
+            display: flex;  
+        }
+        .menu-burger button{
+            background-color: transparent;
+            border: none;
+        }
+        
+        .menu-burger button img{
+            width: 2rem;
+        }
+
+        header nav img {
+            width: 120px;
+        }
+
+        header nav ol {
+            display: none;
+        }
+
+        header nav .link-mobile {
+            position: absolute;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            right: -100%;
+            top: 80px;
+            left: 20;
+            padding: 0;
+            background-color: #1C1E21;
+            border-bottom-left-radius: 10px;
+            
+            transition: right 0.2s ease;
+        }
+        
+        header nav .link-mobile.open {
+            right: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+        header nav .link-mobile a {
+            padding-top: 20px ;
+            padding-bottom: 20px ;
+            margin: 0;
+            width: 100%-20px;
+            font-size: clamp(16px, 5vw, 18px);
+            border-top: 1px solid #5b5d5f2c;
+        }
+        
+        header nav .link-mobile a:nth-child(4){
+            padding-bottom: 30px;
+            
+        }
+        
+    }
+
+    /********************************************/
+    
+    
+    /* VERSION MOBILE (500PX)  ******************/
+    
+    @media (max-width:490px) {
+        header nav .link-mobile {
+            width: 100%;
+            top: 70px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        header nav img {
+            width: 100px;
+        }
+
+        .menu-burger button img{
+            width: 1.8rem;
+        }
+
+        .bar-contact {
+            padding-top: 70px;
+        }
+        
+    }
+/********************************************/
+
+
