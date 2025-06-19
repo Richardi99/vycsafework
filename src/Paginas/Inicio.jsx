@@ -102,7 +102,7 @@ export function Inicio () {
                         <img src= {imageToShow} alt="IMAGEN1" />
                     </div>
                     <div className="sct1texto">
-                        <h1>Seguridad y Administración de Edificios</h1>
+                        <h1>Seguridad y Administración de Edifi cios</h1>
                            <div className="p-content">
                             <p>
                             Ofrecemos una amplia gama de servicios para satisfacer 
