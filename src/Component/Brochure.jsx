@@ -8,7 +8,7 @@ export const Brochure = () => {
                     <h6>DESCARGAR FOLLETO CORPORATIVO</h6>
                     <div className="link-folleto">
                         <a href={brochure} download={brochure}><img src= {icPdf} alt="IMG" />
-                        BROCHURE 2023
+                        BROCHURE 2025
                         </a>
                     </div>
         </section>

@@ -194,7 +194,8 @@
     margin-top: 50px;
     height: auto;
     background-color: #00628B;     
-    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.jpg);
+    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.webp);
+    background-image: cover;
     flex-direction: column;
     justify-content: center;
     background-size: cover;
@@ -355,10 +356,10 @@ h2{
 }
 #sct4 .sct4-soluciones img {
     max-width: 500px;
-    height: 100%;
+    
 }
 #sct4 .sct4-soluciones button {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #sct5 {
@@ -499,7 +500,7 @@ h2{
     padding: 60px 50px;
     font-family: var(--fontMono);
     color: #ffff;
-    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/imagenrecortada.jpg);
+    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/imagenrecortada.png);
     background-position: center;
     background-size: contain;
 }

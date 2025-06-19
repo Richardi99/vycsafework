@@ -19,12 +19,10 @@ export const Footer = () => {
                 <div className="footer-col">
                     <h3>LA EMPRESA</h3>
                     <p>
-                    En nuestra empresa, ofrecemos una amplia gama de
-                    servicios generales para satisfacer todas sus
-                    necesidades de mantenimiento y reparación. Nuestro
-                    equipo de profesionales altamente capacitados y
-                    experimentados se encarga de brindar soluciones
-                    eficientes y de calidad.
+                    Nuestra empresa se distingue por ofrecer una extensa gama de servicios generales, 
+                    diseñados meticulosamente para abordar todas sus necesidades de mantenimiento y reparación. 
+                    Respaldados por un equipo de profesionales altamente capacitados y experimentados, nos 
+                    comprometemos a brindar soluciones eficientes y de la más alta calidad.
                     </p>
                 </div>
 

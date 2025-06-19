@@ -16,18 +16,18 @@ export const Sct3Servicios = () => {
         <section id="sct3">
                         <h2>Nuestros<span>&nbsp;Servicios</span></h2>
                     <div className="sct3-servicios">
-                            <h3>Administracion de Edificios</h3>
+                            <h3>Administración de Edificios</h3>
 
                         <div className="sct3-admin">
                                 <div className="card">
                                     <img src= {icConserjeria} alt="IMAGEN" />
-                                    <h4>Conserjería</h4>
+                                    <h4>Conserje</h4>
                                     <p>Servicio integral de atención y cuidado para la comunidad.
                                     </p>
                                 </div>
                                 <div className="card">
                                     <img src= {icPorteria} alt="IMAGEN" />
-                                    <h4>Portería</h4>
+                                    <h4>Porteros</h4>
                                     <p> Control y gestión eficiente de accesos y salidas.
                                     </p>
                                 </div>
@@ -44,12 +44,12 @@ export const Sct3Servicios = () => {
                                     </p>
                                 </div>
                         </div>
-                        <h3>Seguridad y vigilancia</h3>
+                        <h3>Vigilancia y Seguridad</h3>
                     <div className="sct3-seguridad">
 
                             <div className="card">
                                 <img src= {icVig} alt="IMAGEN" />
-                                <h4>Vigilancia preventiva</h4>
+                                <h4>Vigilancia y seguridad física</h4>
                                 <p>Monitoreo constante para evitar situaciones de riesgo.
                                 </p>
                             </div>
@@ -67,7 +67,7 @@ export const Sct3Servicios = () => {
                             </div>
                             <div className="card">
                                 <img src= {icEscolta} alt="IMAGEN" />
-                                <h4>Escolta personal</h4>
+                                <h4>Escolta o seguridad personal</h4>
                                 <p>Acompañamiento y protección personalizada.
                                 </p>
                             </div>

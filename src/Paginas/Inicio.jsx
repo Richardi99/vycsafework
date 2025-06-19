@@ -1,4 +1,4 @@
-import imagen1 from '../Img/bgPrincipal.jpg'
+import imagen1 from '../Img/BG_PORT.png'
 import nosotrosPortada from '../Img/somosNosotros.jpg';
 
 import icConserjeria from '../Img/icons/ic-conserje.png'
@@ -33,13 +33,13 @@ import { Sct3Servicios } from '../Component/Sct3Servicios'
 export function Inicio () {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [imageToShow, setImageToShow] = useState(window.innerWidth <= 500 ? nosotrosPortada : imagen1);
+  const [imageToShow, setImageToShow] = useState(window.innerWidth <= 500 ? imagen1 : imagen1);
 
   useEffect(() => {
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
       if (window.innerWidth <= 500) {
-        setImageToShow(nosotrosPortada);
+        setImageToShow(imagen1);
       } else {
         setImageToShow(imagen1);
       }
@@ -53,8 +53,6 @@ export function Inicio () {
   }, []);
 
 
-
-
     const [hoveredCards, setHoveredCards] = useState({
         condCard: false,
         polCard: false,
@@ -62,7 +60,6 @@ export function Inicio () {
     } 
     );
     
-
     const handleMouseEnter = (card) => {
         setHoveredCards(prevState => ({ ...prevState, [card]: true }));
     };
@@ -105,11 +102,11 @@ export function Inicio () {
                         <img src= {imageToShow} alt="IMAGEN1" />
                     </div>
                     <div className="sct1texto">
-                        <h1>Administración de Edificios y Seguridad</h1>
+                        <h1>Seguridad y Administración de Edificios</h1>
                            <div className="p-content">
                             <p>
-                            Ofrecemos una amplia gama de servicios generales para 
-                            satisfacer todas sus necesidades de mantenimiento y reparación.
+                            Ofrecemos una amplia gama de servicios para satisfacer 
+                            todas sus necesidades más allá de sus expectativas.
                             </p>
                            </div>
                         <button  onClick={handleScrollToSection} className='btn-solicitar'>Solicitar información</button>

@@ -1,7 +1,7 @@
 
 #nosotros-sect1 {
     color: #303030;
-    background-image: linear-gradient(rgba(31, 7, 0, 0.60), rgba(31, 7, 0, 0.60)), url(../Img/nosotrosportada.jpg);
+    background-image: linear-gradient(rgba(31, 7, 0, 0.60), rgba(31, 7, 0, 0.60)), url(../Img/nosotrosportada.png);
     background-position: center;
     margin-top: 65px;
     height: 300px;
@@ -41,7 +41,7 @@
 }
 .somos-container .imagen {
     width: 400px;
-    background-image: url('../Img/somosNosotros.jpg');
+    background-image: url('../Img/somosNosotros.png');
     background-position: center;
     background-size: cover;
 }
@@ -177,7 +177,7 @@
 @media (max-width: 600px) {
     #nosotros-sect1 {
         background-size: cover;
-        background-image: linear-gradient(rgba(31, 7, 0, 0.60), rgba(31, 7, 0, 0.60)), url(../Img/somosNosotros.jpg);
+        background-image: linear-gradient(rgba(31, 7, 0, 0.60), rgba(31, 7, 0, 0.60)), url(../Img/somosNosotros.png);
     }
     #somos {
         margin: 0;
@@ -198,9 +198,7 @@
         margin-bottom: 20px;
     }
 
-    #valorSocia .card1 p{
-        background-color: red;
-    }
+   
 
     #valorSocial div h4:hover{
         background-color: #ff683513;

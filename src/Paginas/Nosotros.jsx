@@ -49,6 +49,7 @@ export const Nosotros = () => {
                 <div className="card4">
                     <h4>Valores</h4>
                         <p>
+                           <li>Respeto</li>
                            <li>Honestidad</li>
                            <li>Integridad</li>
                            <li>Confidencialidad</li>
