@@ -16,14 +16,7 @@ export const Nosotros = () => {
                         <h3>Somos <strong>V&C SAFE WORK</strong></h3>
                         <h4>Administración de Edificios y Seguridad</h4>
                             <p>
-                            Somos una empresa peruana especializada en la administración integral de 
-                            edificios, condominios y vigilancia preventiva. Para brindar servicios de
-                            conserjes, porteros, recepcionistas, controladores, auxiliares de 
-                            limpieza, vigilancia, resguardo policial y protección personal; 
-                            contamos con personal entrenado y calificado para prestar 
-                            nuestros servicios de calidad. Además, ofrecemos asesoría y gestión en 
-                            seguridad, auditorías de edificios. También proporcionamos consultoría
-                            en administración de edificios, construcción e inmobiliaria.
+                            Somos una empresa peruana especializada en vigilancia y seguridad, administración integral de edificios y condominios, venta y distribución de gas helio. Para brindar cada uno de nuestros servicios contamos con personal altamente capacitado, entrenado y calificado.
                             </p>
                     </div>
                 </div>

@@ -21,6 +21,8 @@ import lgCleanOrange from '../Img/icCleanOrange.png'
 import lgCondBlue from '../Img/icCodBlue.png'
 import lgPolBlue from '../Img/icPolBlue.png'
 import lgCleanBlue from '../Img/icCleanBlue.png'
+import lgGasBlue from '../Img/icGasBlue.png'
+import lgGasOrange from '../Img/icGasOrange.png'
 
 import React, { useState, useRef,useEffect } from "react";
 import emailjs from '@emailjs/browser'
@@ -96,13 +98,14 @@ export function Inicio () {
     return (
         <>
         <Comunicate comunicate={true}/>
+        
             <div id="inicio">
                 <section id="sct1">
                     <div className='container-img'>
                         <img src= {imageToShow} alt="IMAGEN1" />
                     </div>
                     <div className="sct1texto">
-                        <h1>Seguridad y Administración de Edifi cios</h1>
+                        <h1>Seguridad y Administración de Edificios</h1>
                            <div className="p-content">
                             <p>
                             Ofrecemos una amplia gama de servicios para satisfacer 
@@ -114,22 +117,10 @@ export function Inicio () {
                 </section>
 
                 <section id="sct2">
-                    <h2 className='column'>Los mejores en Administración de 
-                        <span> Edificios y Seguridad</span>
+                    <h2 className='column'>Los mejores en Seguridad y 
+                        <span>Administración de Edificios</span>
                     </h2>
                     <div className="sect2-card">
-                        <div 
-                            className="card" 
-                            onMouseEnter={() => handleMouseEnter('condCard')}
-                            onMouseLeave={() => handleMouseLeave('condCard')}
-                        >
-                            <img 
-                                src= {hoveredCards.condCard ? lgCondBlue : lgCondOrange} alt="icono1" 
-                            />
-                            <h4>Administración de Edificios</h4>
-                            <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
-                                seguridad y rentabilidad.</p>
-                        </div>
                         <div 
                             className="card" 
                             onMouseEnter={() => handleMouseEnter('polCard')}
@@ -138,8 +129,20 @@ export function Inicio () {
                             <img 
                                 src= {hoveredCards.polCard ? lgPolBlue : lgPolOrange} alt="icono2" 
                             />
-                            <h4>Seguridad</h4>
+                            <h4>Vigilancia y Seguridad</h4>
                             <p>Protegiendo espacios y personas con profesionalismo y dedicación. Ofrecemos soluciones integrales en seguridad para tranquilidad absoluta.</p>
+                        </div>
+                        <div 
+                            className="card" 
+                            onMouseEnter={() => handleMouseEnter('condCard')}
+                            onMouseLeave={() => handleMouseLeave('condCard')}
+                        >
+                            <img 
+                                src= {hoveredCards.condCard ? lgCondBlue : lgCondOrange} alt="icono1" 
+                            />
+                            <h4>Administración de Edificios y condominios</h4>
+                            <p>Análisis diagnósticos y  recomendaciones para garantizar la eficiencia, 
+                                seguridad y rentabilidad.</p>
                         </div>
                         <div 
                             className="card" 
@@ -147,10 +150,10 @@ export function Inicio () {
                             onMouseLeave={() => handleMouseLeave('cleanCard')}
                         >
                             <img 
-                                src= {hoveredCards.cleanCard ? lgCleanBlue : lgCleanOrange} alt="icono3" 
+                                src= {hoveredCards.cleanCard ? lgGasBlue : lgGasOrange} alt="icono3" 
                             />
-                            <h4>Limpieza y mantenimiento</h4>
-                            <p>Mantenemos espacios impecables y funcionales. Nuestro compromiso es la excelencia en limpieza y cuidado para ambientes que inspiran confianza y comodidad.</p>
+                            <h4>Distribución y comercialización de gas helio</h4>
+                            <p>Distribuimos y comercializamos gas helio con seguridad, puntualidad y alta calidad garantizada.</p>
                         </div>
 
                     </div>
@@ -190,7 +193,7 @@ export function Inicio () {
 
                 <Formulario mostrarTitulo={true }/>
 
-                <Brochure/>
+                
             </div>
         </>
     )
