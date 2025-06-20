@@ -4,6 +4,7 @@ import logo from '../Img/logosinbg.png';
 import '../Css/Header.css';
 import menu from '../Img/icmenu.png';
 import { Comunicate } from "./comunicate";
+import { BotonDescargaPDF } from "./BotonDescargaPDF";
 
 export const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +48,7 @@ export const Header = () => {
                         <Link to="/nosotros" onClick={handleClick}>Nosotros</Link>
                         <Link to="/servicio" onClick={handleClick}>Servicios</Link>
                         <Link to="/contactanos" onClick={handleClick}>Contáctanos</Link>
+                        <BotonDescargaPDF texto="Brochure" />
                     </ol>
 
                     <div className="menu-burger">

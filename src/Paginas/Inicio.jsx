@@ -96,13 +96,14 @@ export function Inicio () {
     return (
         <>
         <Comunicate comunicate={true}/>
+        
             <div id="inicio">
                 <section id="sct1">
                     <div className='container-img'>
                         <img src= {imageToShow} alt="IMAGEN1" />
                     </div>
                     <div className="sct1texto">
-                        <h1>Seguridad y Administración de Edifi cios</h1>
+                        <h1>Seguridad y Administración de Edificios</h1>
                            <div className="p-content">
                             <p>
                             Ofrecemos una amplia gama de servicios para satisfacer 
@@ -114,8 +115,8 @@ export function Inicio () {
                 </section>
 
                 <section id="sct2">
-                    <h2 className='column'>Los mejores en Administración de 
-                        <span> Edificios y Seguridad</span>
+                    <h2 className='column'>Los mejores en Seguridad y 
+                        <span>Administración de Edificios</span>
                     </h2>
                     <div className="sect2-card">
                         <div 
@@ -190,7 +191,7 @@ export function Inicio () {
 
                 <Formulario mostrarTitulo={true }/>
 
-                <Brochure/>
+                
             </div>
         </>
     )
