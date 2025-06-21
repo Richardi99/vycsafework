@@ -16,36 +16,8 @@ export const Sct3Servicios = () => {
         <section id="sct3">
                         <h2>Nuestros<span>&nbsp;Servicios</span></h2>
                     <div className="sct3-servicios">
-                            <h3>Administración de Edificios</h3>
-
-                        <div className="sct3-admin">
-                                <div className="card">
-                                    <img src= {icConserjeria} alt="IMAGEN" />
-                                    <h4>Conserje</h4>
-                                    <p>Servicio integral de atención y cuidado para la comunidad.
-                                    </p>
-                                </div>
-                                <div className="card">
-                                    <img src= {icPorteria} alt="IMAGEN" />
-                                    <h4>Porteros</h4>
-                                    <p> Control y gestión eficiente de accesos y salidas.
-                                    </p>
-                                </div>
-                                <div className="card">
-                                    <img src= {icRecep} alt="IMAGEN" />
-                                    <h4>Recepcionistas</h4>
-                                    <p>Recepción cordial y profesional para visitantes y clientes.
-                                    </p>
-                                </div>
-                                <div className="card">
-                                    <img src= {icAuxL} alt="IMAGEN" />
-                                    <h4>Auxiliar de Limpieza</h4>
-                                    <p>Mantenimiento impecable y cuidado de espacios.
-                                    </p>
-                                </div>
-                        </div>
-                        <h3>Vigilancia y Seguridad</h3>
-                    <div className="sct3-seguridad">
+                        <h3>Seguridad y Vigilancia</h3>
+                            <div className="sct3-seguridad">
 
                             <div className="card">
                                 <img src= {icVig} alt="IMAGEN" />
@@ -72,6 +44,35 @@ export const Sct3Servicios = () => {
                                 </p>
                             </div>
                     </div>
+                        
+                            <h3>Administración de Edificios</h3>
+
+                    <div className="sct3-admin">
+                                <div className="card">
+                                    <img src= {icConserjeria} alt="IMAGEN" />
+                                    <h4>Conserje</h4>
+                                    <p>Servicio integral de atención y cuidado para la comunidad.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src= {icPorteria} alt="IMAGEN" />
+                                    <h4>Porteros</h4>
+                                    <p> Control y gestión eficiente de accesos y salidas.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src= {icRecep} alt="IMAGEN" />
+                                    <h4>Recepcionistas</h4>
+                                    <p>Recepción cordial y profesional para visitantes y clientes.
+                                    </p>
+                                </div>
+                                <div className="card">
+                                    <img src= {icAuxL} alt="IMAGEN" />
+                                    <h4>Auxiliar de Limpieza</h4>
+                                    <p>Mantenimiento impecable y cuidado de espacios.
+                                    </p>
+                                </div>
+                        </div>
 
                         </div>
                 </section>

@@ -60,6 +60,22 @@ export const Servicio = () => {
             </section>
             <Sct3Servicios/>
 
+
+                <h3 className='otrosServiciosTexto'>Comprometidos con el trabajo</h3>
+            <section id='otrosServicios'>
+                <p>Desde la implementación de soluciones tecnológicas innovadoras hasta la prestación de servicios
+                     personalizados, nuestra gama de ofertas está diseñada para
+                      ofrecer resultados sobresalientes. Cada proyecto es abordado 
+                      con una combinación única de habilidades, creatividad y 
+                      conocimientos especializados, asegurando que cada cliente
+                       reciba una solución que se adapte perfectamente a sus requisitos.</p>
+                <div className="slider position">
+                </div>
+            </section>
+
+            <Formulario mostrarTitulo={true }/>
+            
+
             <h3 className='otrosServiciosTexto'>Otros Servicios generales</h3>
 
             <section id='servicios-card'>
@@ -158,20 +174,9 @@ export const Servicio = () => {
 
             </section>
 
-                <h3 className='otrosServiciosTexto'>Comprometidos con el trabajo</h3>
-            <section id='otrosServicios'>
-                <p>Desde la implementación de soluciones tecnológicas innovadoras hasta la prestación de servicios
-                     personalizados, nuestra gama de ofertas está diseñada para
-                      ofrecer resultados sobresalientes. Cada proyecto es abordado 
-                      con una combinación única de habilidades, creatividad y 
-                      conocimientos especializados, asegurando que cada cliente
-                       reciba una solución que se adapte perfectamente a sus requisitos.</p>
-                <div className="slider position">
-                </div>
-            </section>
-
-            <Formulario mostrarTitulo={true }/>
             <Brochure/>
+
+            
         </div>
     )
 }

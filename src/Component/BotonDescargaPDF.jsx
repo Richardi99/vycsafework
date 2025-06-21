@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import brochure from '../Fies/BROCHUREACTUALIZADO.pdf'
 
 export const BotonDescargaPDF = ({ ruta = '/docs/brochure.pdf', texto = '📄 Brochure' }) => {
 
@@ -20,7 +21,7 @@ export const BotonDescargaPDF = ({ ruta = '/docs/brochure.pdf', texto = '📄 Br
 
   return (
     <a
-      href={ruta}
+      href={brochure}
       download
       style={{
         backgroundColor: '#F23005',
