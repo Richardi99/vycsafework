@@ -194,13 +194,27 @@
     margin-top: 50px;
     height: auto;
     background-color: #00628B;     
-    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)), url(../Img/combinada2.webp);
-    background-image: cover;
-    flex-direction: column;
-    justify-content: center;
+    background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683), rgba(107, 64, 23, 0.683)), url(../Img/COMB_2.PNG);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+/* Mostrar 4 imágenes en pantallas pequeñas */
+@media (max-width: 600px) {
+    #sct3 {
+        background-image: linear-gradient(to right, rgba(15, 44, 69, 0.683), rgba(107, 64, 23, 0.683)), url(../Img/COMB_3.PNG);
+        background-repeat: repeat-y;
+        background-size: cover;
+    background-size: 100%; /* Cada imagen ocupa 25% del alto => 4 imágenes apiladas */
+    background-position: top center;
+    min-height: 400vh; /* Asegura espacio suficiente para que se vean las 4 repeticiones */
+  }
+}
+
 .sct3-servicios h2 {
     display: flex;
     flex-direction: row;
