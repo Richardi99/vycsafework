@@ -1,4 +1,6 @@
-import imagen1 from '../Img/BG_PORT.png'
+import imagen1 from '../Img/BD_PRUEBA1.png'
+import imagen2 from '../Img/IMG_BG_3.png'
+import imagen3 from '../Img/IMAGEN_3.png'
 import nosotrosPortada from '../Img/somosNosotros.jpg';
 
 import icConserjeria from '../Img/icons/ic-conserje.png'
@@ -34,25 +36,24 @@ import { Sct3Servicios } from '../Component/Sct3Servicios'
 
 export function Inicio () {
 
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [imageToShow, setImageToShow] = useState(window.innerWidth <= 500 ? imagen1 : imagen1);
+        const getImageByWidth = (width) => {
+        if (width <= 600) return imagen3;
+        if (width <= 920) return imagen2;
+        return imagen1;
+        };
 
-  useEffect(() => {
-    const handleWindowResize = () => {
-      setWindowWidth(window.innerWidth);
-      if (window.innerWidth <= 500) {
-        setImageToShow(imagen1);
-      } else {
-        setImageToShow(imagen1);
-      }
-    };
+        const [imageToShow, setImageToShow] = useState(getImageByWidth(window.innerWidth));
 
-    window.addEventListener('resize', handleWindowResize);
+        useEffect(() => {
+        const handleResize = () => {
+            const newImage = getImageByWidth(window.innerWidth);
+            setImageToShow(prev => (prev !== newImage ? newImage : prev));
+        };
 
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
-  }, []);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+        }, []);
+
 
 
     const [hoveredCards, setHoveredCards] = useState({

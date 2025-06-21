@@ -1,8 +1,40 @@
+@media (max-width: 1900px) {
+    #sct1 img {
+        height: 630px;
+    }
 
+    #sct1 .sct1texto {
+        
+        top: 52%;
+        
+    }
+}
+
+@media (max-width: 1700px) {
+    #sct1 img {
+        height: 630px;
+    }
+
+    #sct1 .sct1texto {
+        
+        top: 48%;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+
+
+    #sct1 .sct1texto {
+        
+        top: 30%;
+        
+    }
+}
 
 @media (max-width: 796px) {
     #sct1 img {
-        height: 310px;
+        height: 350px;
     }
     #sct1 .sct1texto {
         left: 15px;
@@ -277,7 +309,7 @@
 
 @media (max-width: 420px) {
     #sct1 img {
-        height: 290px;
+        height: 320px;
     }
     #inicio h2 {
         margin-top: 0;
