@@ -514,9 +514,9 @@ h2{
     padding: 60px 50px;
     font-family: var(--fontMono);
     color: #ffff;
-    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.683)) ,url(../Img/imagenrecortada.png);
+    background-image:linear-gradient(to right, rgba(15, 44, 69, 0.683),rgba(107, 64, 23, 0.225)) ,url(../Img/imagenrecortada.png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 #sct6 h6, .link-folleto{

@@ -14,7 +14,7 @@ export const Nosotros = () => {
 
                     <div className="somos-texto">
                         <h3>Somos <strong>V&C SAFE WORK</strong></h3>
-                        <h4>Administración de Edificios y Seguridad</h4>
+                        
                             <p>
                             Somos una empresa peruana especializada en vigilancia y seguridad, administración integral de edificios y condominios, venta y distribución de gas helio. Para brindar cada uno de nuestros servicios contamos con personal altamente capacitado, entrenado y calificado.
                             </p>

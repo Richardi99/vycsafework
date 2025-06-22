@@ -35,6 +35,7 @@ export const Contacto = () => {
                     <div className="datos3">
                         <h4>Escribenos !!!</h4>
                         <a href="mailto:coordinadoradministrativo@vycsafework.com" target="_blank" >coordinadoradministrativo@V&Csafework.com</a>
+                        <a href="mailto:operaciones@vycsafework.com" target="_blank" >operaciones@V&Csafework.com</a>
                         <a href="https://wa.me/+51989005302" target="_blank" className='what'><FaWhatsapp className='icWhat'/>989-005-302</a>
                     </div>
                 </section>

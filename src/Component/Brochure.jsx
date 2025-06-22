@@ -11,7 +11,7 @@ export const Brochure = () => {
                         BROCHURE 2025
                         </a>
                     </div>
-        </section>
+        </section> 
 
     )
     
