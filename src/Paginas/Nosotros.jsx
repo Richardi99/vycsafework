@@ -6,7 +6,7 @@ export const Nosotros = () => {
         <div id="nosotros">
             <section id="nosotros-sect1">
                 <h1 className='h1nosotros'>Nosotros</h1>
-                <h2 className='h2nosotros'>Trabajamos para hacerte la vida mas segura</h2>
+                <h2 className='h2nosotros'>"Cuidamos lo que más te importa"</h2>
             </section>
             <section id='somos'>
                 <div className="somos-container">
